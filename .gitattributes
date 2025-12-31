@@ -1,0 +1,4 @@
+datasets/full_ttl_for_processing/big_one.ttl filter=lfs diff=lfs merge=lfs -text
+datasets/full_ttl_for_processing/small_one.ttl filter=lfs diff=lfs merge=lfs -text
+datasets/raw_kg_xml/small_one.xml filter=lfs diff=lfs merge=lfs -text
+datasets/raw_kg_xml/big_one.xml filter=lfs diff=lfs merge=lfs -text
