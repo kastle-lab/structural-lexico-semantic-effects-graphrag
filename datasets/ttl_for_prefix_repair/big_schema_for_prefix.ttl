@@ -1,0 +1,2019 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://dbkwik.webdatacommons.org/marvel.wikia.com/property/> .
+@prefix ns2: <http://dbkwik.webdatacommons.org/ontology/> .
+@prefix ns3: <http://dbkwik.webdatacommons.org/marvel.wikia.com/property/%3> .
+@prefix ns7: <http://dbkwik.webdatacommons.org/marvel.wikia.com/property/alternate232%60> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/> a owl:Ontology .
+
+ns3:CdivAlign a rdf:Property ;
+    rdfs:label "<div align"@en .
+
+ns1:a1ternate a rdf:Property ;
+    rdfs:label "A1ternate"@en .
+
+ns1:after a rdf:Property ;
+    rdfs:label "after"@en .
+
+ns1:align a rdf:Property ;
+    rdfs:label "align"@en .
+
+ns1:alternate a rdf:Property ;
+    rdfs:label "Alternate"@en .
+
+ns7: a rdf:Property ;
+    rdfs:label "Alternate232`"@en .
+
+ns1:appearing a rdf:Property ;
+    rdfs:label "Appearing"@en .
+
+ns1:background a rdf:Property ;
+    rdfs:label "background"@en .
+
+ns1:baseofoperations a rdf:Property ;
+    rdfs:label "BaseOfOperations"@en .
+
+ns1:before a rdf:Property ;
+    rdfs:label "before"@en .
+
+ns1:body a rdf:Property ;
+    rdfs:label "body"@en .
+
+ns1:border a rdf:Property ;
+    rdfs:label "border"@en .
+
+ns1:box a rdf:Property ;
+    rdfs:label "Box"@en .
+
+ns1:box1Image a rdf:Property ;
+    rdfs:label "Box1 Image"@en .
+
+ns1:box1Text a rdf:Property ;
+    rdfs:label "Box1 Text"@en .
+
+ns1:box2Image a rdf:Property ;
+    rdfs:label "Box2 Image"@en .
+
+ns1:box2Text a rdf:Property ;
+    rdfs:label "Box2 Text"@en .
+
+ns1:box3Image a rdf:Property ;
+    rdfs:label "Box3 Image"@en .
+
+ns1:box3Text a rdf:Property ;
+    rdfs:label "Box3 Text"@en .
+
+ns1:box4Image a rdf:Property ;
+    rdfs:label "Box4 Image"@en .
+
+ns1:box4Text a rdf:Property ;
+    rdfs:label "Box4 Text"@en .
+
+ns1:box5Image a rdf:Property ;
+    rdfs:label "Box5 Image"@en .
+
+ns1:box5Text a rdf:Property ;
+    rdfs:label "Box5 Text"@en .
+
+ns1:box6Image a rdf:Property ;
+    rdfs:label "Box6 Image"@en .
+
+ns1:box6Text a rdf:Property ;
+    rdfs:label "Box6 Text"@en .
+
+ns1:box7Image a rdf:Property ;
+    rdfs:label "Box7 Image"@en .
+
+ns1:box7Text a rdf:Property ;
+    rdfs:label "Box7 Text"@en .
+
+ns1:box8Image a rdf:Property ;
+    rdfs:label "Box8 Image"@en .
+
+ns1:box8Text a rdf:Property ;
+    rdfs:label "Box8 Text"@en .
+
+ns1:charref a rdf:Property ;
+    rdfs:label "CharRef"@en .
+
+ns1:citizenship a rdf:Property ;
+    rdfs:label "Citizenship"@en .
+
+ns1:colourist a rdf:Property ;
+    rdfs:label "Colourist8 "@en .
+
+ns1:creators a rdf:Property ;
+    rdfs:label "Creators"@en .
+
+ns1:crossovers a rdf:Property ;
+    rdfs:label "Crossovers"@en .
+
+ns1:death a rdf:Property ;
+    rdfs:label "Death"@en .
+
+ns1:description a rdf:Property ;
+    rdfs:label "Description"@en .
+
+ns1:durability a rdf:Property ;
+    rdfs:label "Durability"@en .
+
+ns1:editor a rdf:Property ;
+    rdfs:label "Editor8 "@en .
+
+ns1:endmonth a rdf:Property ;
+    rdfs:label "EndMonth"@en .
+
+ns1:endyear a rdf:Property ;
+    rdfs:label "EndYear"@en .
+
+ns1:energyProjection a rdf:Property ;
+    rdfs:label "Energy Projection"@en .
+
+ns1:equipment a rdf:Property ;
+    rdfs:label "Equipment"@en .
+
+ns1:explanation a rdf:Property ;
+    rdfs:label "Explanation"@en .
+
+ns1:externallinks a rdf:Property ;
+    rdfs:label "externallinks"@en .
+
+ns1:eyes a rdf:Property ;
+    rdfs:label "Eyes"@en .
+
+ns1:fandurability a rdf:Property ;
+    rdfs:label "FanDurability"@en .
+
+ns1:fanenergyProjection a rdf:Property ;
+    rdfs:label "FanEnergy Projection"@en .
+
+ns1:fanexplanation a rdf:Property ;
+    rdfs:label "FanExplanation"@en .
+
+ns1:fanfightingSkills a rdf:Property ;
+    rdfs:label "FanFighting Skills"@en .
+
+ns1:fanintelligence a rdf:Property ;
+    rdfs:label "FanIntelligence"@en .
+
+ns1:fanreference a rdf:Property ;
+    rdfs:label "FanReference"@en .
+
+ns1:fanspeed a rdf:Property ;
+    rdfs:label "FanSpeed"@en .
+
+ns1:fanstrength a rdf:Property ;
+    rdfs:label "FanStrength"@en .
+
+ns1:featured a rdf:Property ;
+    rdfs:label "Featured"@en .
+
+ns1:fightingSkills a rdf:Property ;
+    rdfs:label "Fighting Skills"@en .
+
+ns1:file a rdf:Property ;
+    rdfs:label "File"@en .
+
+ns1:first a rdf:Property ;
+    rdfs:label "First"@en .
+
+ns1:firstissue a rdf:Property ;
+    rdfs:label "FirstIssue"@en .
+
+ns1:formattedtitle a rdf:Property ;
+    rdfs:label "formattedtitle"@en .
+
+ns1:gender a rdf:Property ;
+    rdfs:label "Gender"@en .
+
+ns1:group a rdf:Property ;
+    rdfs:label "Group"@en .
+
+ns1:hair a rdf:Property ;
+    rdfs:label "Hair"@en .
+
+ns1:historytext a rdf:Property ;
+    rdfs:label "HistoryText"@en .
+
+ns1:id a rdf:Property ;
+    rdfs:label "id"@en .
+
+ns1:identity a rdf:Property ;
+    rdfs:label "Identity"@en .
+
+ns1:imageSize a rdf:Property ;
+    rdfs:label "Image Size"@en .
+
+ns1:imagesize a rdf:Property ;
+    rdfs:label "ImageSize"@en .
+
+ns1:inker a rdf:Property ;
+    rdfs:label "Inker8 "@en .
+
+ns1:intelligence a rdf:Property ;
+    rdfs:label "Intelligence"@en .
+
+ns1:issueimage a rdf:Property ;
+    rdfs:label "IssueImage"@en .
+
+ns1:issuelist a rdf:Property ;
+    rdfs:label "IssueList"@en .
+
+ns1:lastissue a rdf:Property ;
+    rdfs:label "LastIssue"@en .
+
+ns1:letterer a rdf:Property ;
+    rdfs:label "Letterer8 "@en .
+
+ns1:link a rdf:Property ;
+    rdfs:label "link"@en .
+
+ns1:links a rdf:Property ;
+    rdfs:label "Links"@en .
+
+ns1:linktext a rdf:Property ;
+    rdfs:label "linktext"@en .
+
+ns1:logo a rdf:Property ;
+    rdfs:label "Logo"@en .
+
+ns1:mainCharacter a rdf:Property ;
+    rdfs:label "Main Character"@en .
+
+ns1:mainImageSize a rdf:Property ;
+    rdfs:label "Main Image Size"@en .
+
+ns1:mainPicSize a rdf:Property ;
+    rdfs:label "Main Pic Size"@en .
+
+ns1:mainimagesize a rdf:Property ;
+    rdfs:label "MainImageSize"@en .
+
+ns1:message a rdf:Property ;
+    rdfs:label "Message"@en .
+
+ns1:month a rdf:Property ;
+    rdfs:label "Month"@en .
+
+ns1:movies a rdf:Property ;
+    rdfs:label "Movies"@en .
+
+ns1:name a rdf:Property ;
+    rdfs:label "name"@en .
+
+ns1:newHeader a rdf:Property ;
+    rdfs:label "New Header1 "@en .
+
+ns1:newHeader1X a rdf:Property ;
+    rdfs:label "New Header1 x"@en .
+
+ns1:next a rdf:Property ;
+    rdfs:label "next"@en .
+
+ns1:nextissue a rdf:Property ;
+    rdfs:label "NextIssue"@en .
+
+ns1:nextvol a rdf:Property ;
+    rdfs:label "NextVol"@en .
+
+ns1:note a rdf:Property ;
+    rdfs:label "note"@en .
+
+ns1:notes a rdf:Property ;
+    rdfs:label "Notes"@en .
+
+ns1:origin a rdf:Property ;
+    rdfs:label "Origin"@en .
+
+ns1:other a rdf:Property ;
+    rdfs:label "Other"@en .
+
+ns1:others a rdf:Property ;
+    rdfs:label "Others"@en .
+
+ns1:penciler a rdf:Property ;
+    rdfs:label "Penciler8 "@en .
+
+ns1:placeofbirth a rdf:Property ;
+    rdfs:label "PlaceOfBirth"@en .
+
+ns1:powers a rdf:Property ;
+    rdfs:label "Powers"@en .
+
+ns1:previous a rdf:Property ;
+    rdfs:label "previous"@en .
+
+ns1:previousissue a rdf:Property ;
+    rdfs:label "PreviousIssue"@en .
+
+ns1:previousvol a rdf:Property ;
+    rdfs:label "PreviousVol"@en .
+
+ns1:pthers a rdf:Property ;
+    rdfs:label "Pthers"@en .
+
+ns1:publisher a rdf:Property ;
+    rdfs:label "Publisher"@en .
+
+ns1:realname a rdf:Property ;
+    rdfs:label "RealName"@en .
+
+ns1:realted a rdf:Property ;
+    rdfs:label "Realted"@en .
+
+ns1:reference a rdf:Property ;
+    rdfs:label "Reference"@en .
+
+ns1:references a rdf:Property ;
+    rdfs:label "references"@en .
+
+ns1:related a rdf:Property ;
+    rdfs:label "Related"@en .
+
+ns1:relatives a rdf:Property ;
+    rdfs:label "Relatives"@en .
+
+ns1:releasedate a rdf:Property ;
+    rdfs:label "ReleaseDate"@en .
+
+ns1:seeAlso a rdf:Property ;
+    rdfs:label "See Also"@en .
+
+ns1:seealso a rdf:Property ;
+    rdfs:label "SeeAlso"@en .
+
+ns1:solicit a rdf:Property ;
+    rdfs:label "Solicit"@en .
+
+ns1:speed a rdf:Property ;
+    rdfs:label "Speed"@en .
+
+ns1:startmonth a rdf:Property ;
+    rdfs:label "StartMonth"@en .
+
+ns1:startyear a rdf:Property ;
+    rdfs:label "StartYear"@en .
+
+ns1:story a rdf:Property ;
+    rdfs:label "Story"@en .
+
+ns1:story1link a rdf:Property ;
+    rdfs:label "Story1Link"@en .
+
+ns1:story3link a rdf:Property ;
+    rdfs:label "Story3Link"@en .
+
+ns1:storyarcs a rdf:Property ;
+    rdfs:label "StoryArcs"@en .
+
+ns1:storytitle a rdf:Property ;
+    rdfs:label "StoryTitle"@en .
+
+ns1:strength a rdf:Property ;
+    rdfs:label "Strength"@en .
+
+ns1:teames a rdf:Property ;
+    rdfs:label "Teames"@en .
+
+ns1:teams a rdf:Property ;
+    rdfs:label "Teams"@en .
+
+ns1:television a rdf:Property ;
+    rdfs:label "Television"@en .
+
+ns1:title a rdf:Property ;
+    rdfs:label "title"@en .
+
+ns1:titleImage a rdf:Property ;
+    rdfs:label "Title Image"@en .
+
+ns1:totalissues a rdf:Property ;
+    rdfs:label "TotalIssues"@en .
+
+ns1:trivia a rdf:Property ;
+    rdfs:label "Trivia"@en .
+
+ns1:type a rdf:Property ;
+    rdfs:label "Type"@en .
+
+ns1:universe a rdf:Property ;
+    rdfs:label "Universe"@en .
+
+ns1:videoGame a rdf:Property ;
+    rdfs:label "Video Game"@en .
+
+ns1:videoGames a rdf:Property ;
+    rdfs:label "Video Games"@en .
+
+ns1:videogames a rdf:Property ;
+    rdfs:label "VideoGames"@en .
+
+ns1:volumelogo a rdf:Property ;
+    rdfs:label "VolumeLogo"@en .
+
+ns1:width a rdf:Property ;
+    rdfs:label "width"@en .
+
+ns1:writer a rdf:Property ;
+    rdfs:label "Writer8 "@en .
+
+ns1:year a rdf:Property ;
+    rdfs:label "Year"@en .
+
+ns1:years a rdf:Property ;
+    rdfs:label "years"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/$$_Maje$tic> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/r> ;
+    rdfs:label "$$ Maje$tic"^^rdf:langString ;
+    ns2:thumbnail <http://marvel.wikia.com/wiki/Special:FilePath/$$_Maje$tic_from_Agents_of_Atlas_Vol_1_4_001.png?width=300> ;
+    ns2:wikiPageWikiLink <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Atlas_Foundation_(Earth-616)> ;
+    ns2:wikiPageWikiLinkText "''$$ Maje$tic''"^^rdf:langString ;
+    dcterms:subject <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:Boats_and_Subs> ;
+    skos:altLabel "$$ Maje$tic"^^rdf:langString ;
+    foaf:depiction <http://marvel.wikia.com/wiki/Special:FilePath/$$_Maje$tic_from_Agents_of_Atlas_Vol_1_4_001.png> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/$$_Maje$tic/Gallery> a owl:Thing ;
+    rdfs:label "$$ Maje$tic/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/$_Cult_(Earth-616)> a owl:Thing ;
+    rdfs:label "$ Cult (Earth-616)"^^rdf:langString ;
+    ns2:wikiPageExternalLink <http://www.marvunapp.com/Appendix4/caviarkillerdd.htm%23cult> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/%22Spider-Girl%22_(Mutant/Spider_Clone)_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/m> ;
+    rdfs:label "\"Spider-Girl\" (Mutant/Spider Clone) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/%27Maxwell_Stockbridge%27> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/merge_to> ;
+    rdfs:label "'Maxwell Stockbridge'"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/%27Nam_Magazine_Vol_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cisnodpl> ;
+    rdfs:label "'Nam Magazine Vol 1"^^rdf:langString ;
+    ns1:formattedtitle "'Nam Magazine #1"^^rdf:langString ;
+    ns1:month "April"^^rdf:langString ;
+    ns1:year 1988 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/%27Nam_Magazine_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/a> ;
+    rdfs:label "'Nam Magazine Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/%27Nuff_Said> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/c> ;
+    rdfs:label "'Nuff Said"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/100_Greatest_Marvels_of_All_Time_Vol_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cidnodpl> ;
+    rdfs:label "100 Greatest Marvels of All Time Vol 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/100_Greatest_Marvels_of_All_Time_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/storygrab> ;
+    rdfs:label "100 Greatest Marvels of All Time Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/100_Greatest_Marvels_of_All_Time_Vol_1_10> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/apn> ;
+    rdfs:label "100 Greatest Marvels of All Time Vol 1 10"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/100th_Anniversary_Special_-_Avengers_Vol_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cis> ;
+    rdfs:label "100th Anniversary Special - Avengers Vol 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/100th_Anniversary_Special_-_Fantastic_Four_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flash> ;
+    rdfs:label "100th Anniversary Special - Fantastic Four Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/100th_Anniversary_Special_-_X-Men_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cameo> ;
+    rdfs:label "100th Anniversary Special - X-Men Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/10th_century> rdfs:label "10th century"^^rdf:langString ;
+    ns2:abstract """The following timeline describes the major events of Earth-616 in the 10th century of the Marvel Universe Timeline. 
+
+"""@en ;
+    rdfs:comment """The following timeline describes the major events of Earth-616 in the 10th century of the Marvel Universe Timeline. 
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/15-Love_TPB_Vol_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cid> ;
+    rdfs:label "15-Love TPB Vol 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/15-Love_Vol_1> rdfs:label "15-Love Vol 1"^^rdf:langString ;
+    ns1:releasedate "2011-03-08"^^xsd:date .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/15-Love_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/only> ;
+    rdfs:label "15-Love Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1602_Witch_Hunter_Angela_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1st> ;
+    rdfs:label "1602 Witch Hunter Angela Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1602_Witch_Hunter_Angela_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flashonly> ;
+    rdfs:label "1602 Witch Hunter Angela Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1602_Witch_Hunter_Angela_Vol_1_3> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mentioned> ;
+    rdfs:label "1602 Witch Hunter Angela Vol 1 3"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1602_Witch_Hunter_Angela_Vol_1_4> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1stas> ;
+    rdfs:label "1602 Witch Hunter Angela Vol 1 4"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1872_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/minor> ;
+    rdfs:label "1872 Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/18th_Kree_Diplomatic_Gestalt> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/disambiguation> ;
+    rdfs:label "18th Kree Diplomatic Gestalt"^^rdf:langString ;
+    ns1:alternate <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/18th_Kree_Diplomatic_Gestalt_(Earth-TRN285)> ;
+    ns2:wikiPageDisambiguates <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/18th_Kree_Diplomatic_Gestalt_(Earth-200080)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1939_Daily_Bugle_Vol_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_list> ;
+    rdfs:label "1939 Daily Bugle Vol 1"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/198_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/messagebox> ;
+    rdfs:label "198 (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1st_Special_Forces_Operational_Detachment-Delta> rdfs:label "1st Special Forces Operational Detachment-Delta"^^rdf:langString ;
+    ns1:movies <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/1st_Special_Forces_Operational_Detachment-Delta_(Earth-TRN554)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/2001_Comic_Books> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comicdisambig> ;
+    rdfs:label "2001 Comic Books"^^rdf:langString ;
+    rdfs:comment """See: for a complete list.
+__NOEDITSECTION__"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/2018> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/year_category> ;
+    rdfs:label "2018"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/20th_century> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/main> ;
+    rdfs:label "20th century"^^rdf:langString ;
+    rdfs:comment """The following timeline describes the major events of Earth-616 in the 20th. Only major fictional historical events are listed here. Please note that few exact dates have been given for these events, so approximations are used instead. Note also that a Sliding Timescale applies to Earth-616, so that events involving its inhabitants can only be determined as having happened a certain number of years before whatever the current date is.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/3-D_Man> rdfs:label "3-D Man"^^rdf:langString ;
+    ns1:description <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Skrulls> ;
+    ns1:logo 3 ;
+    ns1:mainCharacter <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Charles_Chandler_(Earth-616)> ;
+    ns1:mainImageSize 250 ;
+    ns1:others <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Charles_Chandler_IV_(Earth-616)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/4_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/conversation> ;
+    rdfs:label "4 Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/50-State_Initiative> rdfs:label "50-State Initiative"^^rdf:langString ;
+    ns1:related <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Initiative> ;
+    ns1:videoGames <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/50-State_Initiative_(Earth-TRN579)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/50-State_Initiative_(Earth-616)> rdfs:label "50-State Initiative (Earth-616)"^^rdf:langString ;
+    ns1:body <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/2-D_(Earth-616)> ;
+    ns1:title <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Action_Pack_(Earth-616)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/89P13_(Earth-TRN517)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vd> ;
+    rdfs:label "89P13 (Earth-TRN517)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A%27Lars_(Earth-616)/Power_Grid> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/official_power_grid> ;
+    rdfs:label "A'Lars (Earth-616)/Power Grid"^^rdf:langString ;
+    ns1:durability 6 ;
+    ns1:energyProjection 4 ;
+    ns1:fandurability "|"^^rdf:langString ;
+    ns1:fanenergyProjection "|"^^rdf:langString ;
+    ns1:fanexplanation "|"^^rdf:langString ;
+    ns1:fanfightingSkills "|"^^rdf:langString ;
+    ns1:fanintelligence "|"^^rdf:langString ;
+    ns1:fanreference "|"^^rdf:langString ;
+    ns1:fanspeed "|"^^rdf:langString ;
+    ns1:fanstrength "|"^^rdf:langString ;
+    ns1:fightingSkills 2 ;
+    ns1:intelligence 6 ;
+    ns1:speed 3 ;
+    ns1:strength 4 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A-Force_Comic_Books> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_disambig> ;
+    rdfs:label "A-Force Comic Books"^^rdf:langString ;
+    rdfs:comment """See: for a complete list.
+__NOEDITSECTION__"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A-Force_Vol_1_4> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/g> ;
+    rdfs:label "A-Force Vol 1 4"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A.I.D.A.> rdfs:label "A.I.D.A."^^rdf:langString ;
+    ns1:television <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Artificially_Intelligent_Digital_Assistant_(Earth-199999)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A.I.M._Island> rdfs:label "A.I.M. Island"^^rdf:langString ;
+    ns1:newHeader <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Barbuda> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/AC-DC_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/navigation> ;
+    rdfs:label "AC-DC (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/AXIS:_Carnage_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/illusion> ;
+    rdfs:label "AXIS: Carnage Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A_+_X_Vol_1_6> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/fb> ;
+    rdfs:label "A + X Vol 1 6"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A_Shadowline_Saga:_%22Critical_Mass%22_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flashback> ;
+    rdfs:label "A Shadowline Saga: \"Critical Mass\" Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A_Year_of_Marvels:_August_Infinite_Comic_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/referenced> ;
+    rdfs:label "A Year of Marvels: August Infinite Comic Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/A_Year_of_Marvels:_September_Infinite_Comic_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vision> ;
+    rdfs:label "A Year of Marvels: September Infinite Comic Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Aala_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/movetagged> ;
+    rdfs:label "Aala (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Aamshed_(Earth-616)/Power_Grid> rdfs:label "Aamshed (Earth-616)/Power Grid"^^rdf:langString ;
+    ns1:reference <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Official_Handbook_of_the_Marvel_Universe_A-Z_Vol_1_3> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abcess/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/extension_dpl> ;
+    rdfs:label "Abcess/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abdul_Alhazred_(Ship)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/citation> ;
+    rdfs:label "Abdul Alhazred (Ship)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abigail_Miller_(Earth-701306)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/marvel_movies> ;
+    rdfs:label "Abigail Miller (Earth-701306)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abner_Jenkins_(Earth-199999)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/adaptation2> ;
+    rdfs:label "Abner Jenkins (Earth-199999)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abomination> rdfs:label "Abomination"^^rdf:langString ;
+    ns1:teams <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abominations_(Earth-9200)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Aboriginal_Gods> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/plagiarism> ;
+    rdfs:label "Aboriginal Gods"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abraham_van_Helsing_(Earth-800801)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/md> ;
+    rdfs:label "Abraham van Helsing (Earth-800801)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Acts_of_Vengeance> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shrink> ;
+    rdfs:label "Acts of Vengeance"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adam_Kubert_(Earth-1218)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/succession_box> ;
+    rdfs:label "Adam Kubert (Earth-1218)"^^rdf:langString ;
+    ns1:after <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Salvador_Larroca> ;
+    ns1:before <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Chris_Bachalo_(Earth-1218)> ;
+    ns1:years 1999 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adrian_Toomes_(Earth-TRN461)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/wp> ;
+    rdfs:label "Adrian Toomes (Earth-TRN461)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Advanced_Idea_Mechanics_(Earth-12041)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/ed> ;
+    rdfs:label "Advanced Idea Mechanics (Earth-12041)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Advanced_Idea_Mechanics_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/quote/draft> ;
+    rdfs:label "Advanced Idea Mechanics (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adventures_into_Weird_Worlds_Vol_1_27> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/destroyed> ;
+    rdfs:label "Adventures into Weird Worlds Vol 1 27"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adventures_into_Weird_Worlds_Vol_1_5> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/only_dies> ;
+    rdfs:label "Adventures into Weird Worlds Vol 1 5"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adventures_of_Spider-Man_Vol_1_12> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/last> ;
+    rdfs:label "Adventures of Spider-Man Vol 1 12"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adventures_of_the_Thing_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/green> ;
+    rdfs:label "Adventures of the Thing Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Adventures_of_the_X-Men_Vol_1_4> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/destruction> ;
+    rdfs:label "Adventures of the X-Men Vol 1 4"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Aegis_(Monster)_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cite_web> ;
+    rdfs:label "Aegis (Monster) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Africa> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/seealso> ;
+    rdfs:label "Africa"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Age_of_Ultron_(Event)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/quote> ;
+    rdfs:label "Age of Ultron (Event)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Agent_X_Vol_1_7> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/joins> ;
+    rdfs:label "Agent X Vol 1 7"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Akira_Yoshida> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/merge> ;
+    rdfs:label "Akira Yoshida"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alberto_Dose> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/dcdp> ;
+    rdfs:label "Alberto Dose"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alejandro_Arbona> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/pagename> ;
+    rdfs:label "Alejandro Arbona"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alexander_Bont_(Earth-616)/Power_Grid> rdfs:label "Alexander Bont (Earth-616)/Power Grid"^^rdf:langString ;
+    ns1:explanation <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mutant_Growth_Hormone> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alias_Vol_1_10> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/photo> ;
+    rdfs:label "Alias Vol 1 10"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alias_Vol_1_11> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/poster> ;
+    rdfs:label "Alias Vol 1 11"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alias_Vol_1_12> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/dream> ;
+    rdfs:label "Alias Vol 1 12"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alias_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/onscreen> ;
+    rdfs:label "Alias Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alicia_Masters_(Earth-616)/Expanded_History> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/reflist> ;
+    rdfs:label "Alicia Masters (Earth-616)/Expanded History"^^rdf:langString ;
+    rdfs:comment """A number the incidents recounted of Alicia's prior to and during her associated with the Fantastic Four are cited to have occurred in specific decades relative to the era of publication. However, the Earth-616 universe operates on a Sliding Timescale these events could not have occurred in the times they appeared due to the fact that it would drastically age the character. The scale serves to put a linear timeframe on what is referred to as the modern age of the Marvel Universe
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alien_Legion_Vol_2_13> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/dies> ;
+    rdfs:label "Alien Legion Vol 2 13"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/All-New,_All-Different_Marvel> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/clear> ;
+    rdfs:label "All-New, All-Different Marvel"^^rdf:langString ;
+    rdfs:comment "pt-br:Totalmente Nova e Diferente Marvel"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/All-New_Captain_America_Vol_1_3> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/hologram> ;
+    rdfs:label "All-New Captain America Vol 1 3"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/All-New_Ghost_Rider_Vol_1_10> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/possessedby> ;
+    rdfs:label "All-New Ghost Rider Vol 1 10"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/All-New_Inhumans_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1stchron> ;
+    rdfs:label "All-New Inhumans Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/All_New_Exiles_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/memory> ;
+    rdfs:label "All New Exiles Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight> rdfs:label "Alpha Flight"^^rdf:langString ;
+    ns1:a1ternate 807128 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight_Comic_Books> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cvd> ;
+    rdfs:label "Alpha Flight Comic Books"^^rdf:langString ;
+    rdfs:comment """See: for a complete list.
+__NOEDITSECTION__"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight_Omnijet> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/ref> ;
+    rdfs:label "Alpha Flight Omnijet"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight_Vol_1_32> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/first> ;
+    rdfs:label "Alpha Flight Vol 1 32"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight_Vol_2_14> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/recaponly> ;
+    rdfs:label "Alpha Flight Vol 2 14"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazing_Spider-Man:_Renew_Your_Vows_Vol_2_22> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/recap> ;
+    rdfs:label "Amazing Spider-Man: Renew Your Vows Vol 2 22"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazing_Spider-Man_Vol_1_600> rdfs:label "Amazing Spider-Man Vol 1 600"^^rdf:langString ;
+    ns1:appearing "Antagonists:"^^rdf:langString ;
+    ns1:colourist "Andres Mossa"^^rdf:langString ;
+    ns1:editor "Stephen Wacker"^^rdf:langString ;
+    ns1:inker "Derec Donovan"^^rdf:langString ;
+    ns1:letterer "Chris Eliopoulos"^^rdf:langString ;
+    ns1:links <http://marvel.com/catalog/?id=12365> ;
+    ns1:penciler "Derec Donovan"^^rdf:langString ;
+    ns1:solicit "The greatest Marvel super hero of all celebrates his 600th issue with the biggest all-original issue of Amazing Spider-Man EVER! This one’s got it all! The return of Doctor Octopus, Daredevil, a wedding you never predicted, and the return of one of the most important people in Peter Parker’s life in a giant-sized lead story by Dan Slott and John Romita Jr. Doc’s back in town, but it’s only a prelude to darker days ahead as Spidey unknowingly prepares for a gauntlet he can’t even see coming. On top of all that, witness the return of one of Spider-man’s creators, Smilin’ Stan Lee  as he presents a story of unbridled passion, drama and angst as Spidey reflects over his many, many years of adventures. But that ain’t all…as the rest of the Spidey Web-Heads bring you several short features showcasing some rarely explored aspects of both Spidey and Pete’s life, drawn by some of the greatest artists in comics. Plus, several other surprises and NO REPRINTS! 104 pages of goodness brought to you by some of the best creators that have ever worked on Spidey!"^^rdf:langString ;
+    ns1:trivia "During the Last Legs story, when Spider-Man saves a pedestrian from falling he says \"Everybody Gets One.\" This quote is usually stated whenever he appears on Family Guy as a parody."^^rdf:langString ;
+    ns1:writer "Brian Michael Bendis"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazing_Spider-Man_Vol_4_1.2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1st_real_name> ;
+    rdfs:label "Amazing Spider-Man Vol 4 1.2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazing_X-Men_Vol_1_3> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/conversation2> ;
+    rdfs:label "Amazing X-Men Vol 1 3"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazon_Vol_1> rdfs:label "Amazon Vol 1"^^rdf:langString ;
+    ns1:publisher "Amalgam Comics"^^rdf:langString ;
+    ns1:volumelogo "Amalgam Comics logo.png"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Ande_Parks> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/wikipedia> ;
+    rdfs:label "Ande Parks"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Angel> rdfs:label "Angel"^^rdf:langString ;
+    ns1:other <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/James_Morris_(Earth-200111)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Angel_(Wolf)_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cnst> ;
+    rdfs:label "Angel (Wolf) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Angelica_Jones_(Earth-3062)/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/death> ;
+    rdfs:label "Angelica Jones (Earth-3062)/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Angelica_Jones_(Earth-80827)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/delete> ;
+    rdfs:label "Angelica Jones (Earth-80827)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Ant-Man_&_the_Wasp_Vol_1_4> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/bts> ;
+    rdfs:label "Ant-Man & the Wasp Vol 1 4"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Armor_Wars_I> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/imaw> ;
+    rdfs:label "Armor Wars I"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Armor_Wars_II> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/arw2> ;
+    rdfs:label "Armor Wars II"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Assistant_Editor%27s_Month_1984> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/long_portal> ;
+    rdfs:label "Assistant Editor's Month 1984"^^rdf:langString ;
+    ns1:box1Image "Alpha Flight Vol 1 6.jpg"^^rdf:langString ;
+    ns1:box1Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight_Vol_1_6> ;
+    ns1:box2Image "Amazing Spider-Man Vol 1 248.jpg"^^rdf:langString ;
+    ns1:box2Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazing_Spider-Man_Vol_1_248> ;
+    ns1:box3Image "Avengers Vol 1 239.jpg"^^rdf:langString ;
+    ns1:box3Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Vol_1_239> ;
+    ns1:box4Image "Captain America Vol 1 289.jpg"^^rdf:langString ;
+    ns1:box4Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Captain_America_Vol_1_289> ;
+    ns1:box5Image "Cloak and Dagger Vol 1 4.jpg"^^rdf:langString ;
+    ns1:box5Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Cloak_and_Dagger_Vol_1_4> ;
+    ns1:box6Image "ConantheBarbarian154.jpg"^^rdf:langString ;
+    ns1:box6Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Conan_the_Barbarian_Vol_1_154> ;
+    ns1:box7Image "ConantheKing20.jpg"^^rdf:langString ;
+    ns1:box7Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Conan_the_King_Vol_1_20> ;
+    ns1:box8Image "Daredevil Vol 1 202.jpg"^^rdf:langString ;
+    ns1:box8Text <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Daredevil_Vol_1_202> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_Captain_America_Vol_1> rdfs:label "Astonishing Captain America Vol 1"^^rdf:langString ;
+    ns1:notes <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Captain_America:_Living_Legend_Vol_1> ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_Spider-Man_Vol_4_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1stfull> ;
+    rdfs:label "Astonishing Spider-Man Vol 4 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_X-Men_Vol_2_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/nav> ;
+    rdfs:label "Astonishing X-Men Vol 2 2"^^rdf:langString ;
+    ns1:next <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_X-Men_Vol_2_3> ;
+    ns1:note "Volume 2"^^rdf:langString ;
+    ns1:previous <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_X-Men_Vol_2_1> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Ataraxians> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/healing_factor> ;
+    rdfs:label "Ataraxians"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers:_Earth%27s_Mightiest_Heroes_(Animated_Series)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/youtube> ;
+    rdfs:label "Avengers: Earth's Mightiest Heroes (Animated Series)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Academy_Vol_1_12> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/possessed> ;
+    rdfs:label "Avengers Academy Vol 1 12"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Academy_Vol_1_14.1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/statue> ;
+    rdfs:label "Avengers Academy Vol 1 14.1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Benjamin_Parker_(Earth-26496)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/out-of-universe> ;
+    rdfs:label "Benjamin Parker (Earth-26496)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Best_Western_Vol_1> rdfs:label "Best Western Vol 1"^^rdf:langString ;
+    ns1:issueimage "Atlas_Comics.png"^^rdf:langString ;
+    ns1:nextvol <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Western_Outlaws_&_Sheriffs_Vol_1> ;
+    ns1:type "Limited series"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Biff_Rifkin_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cidil> ;
+    rdfs:label "Biff Rifkin (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Bio-Energy_Sentinel/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/item_images> ;
+    rdfs:label "Bio-Energy Sentinel/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Black_Panther:_World_of_Wakanda_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/toy> ;
+    rdfs:label "Black Panther: World of Wakanda Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Black_Panther:_World_of_Wakanda_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/onscreenonly> ;
+    rdfs:label "Black Panther: World of Wakanda Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Black_Panther_(Motion_Comic)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/imdb_title> ;
+    rdfs:label "Black Panther (Motion Comic)"^^rdf:langString ;
+    ns1:name "Black Panther"^^rdf:langString ;
+    rdfs:comment """The series is based off the story arc featured in Black Panther Vol 4.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Black_Queen> rdfs:label "Black Queen"^^rdf:langString ;
+    ns1:seealso <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hellfire_Club> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Black_Widow:_Red_Vengeance> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/adaptation> ;
+    rdfs:label "Black Widow: Red Vengeance"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Blade:_The_Series_Season_1_12> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/final> ;
+    rdfs:label "Blade: The Series Season 1 12"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Blade:_Trinity> rdfs:label "Blade: Trinity"^^rdf:langString ;
+    ns1:id <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Blade> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Blink> rdfs:label "Blink"^^rdf:langString ;
+    ns1:titleImage "Blink_Vol_1_1.png"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Boris_(Latverian)_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/power_grid> ;
+    rdfs:label "Boris (Latverian) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Cable_and_X-Force_Vol_1_11> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/invoked> ;
+    rdfs:label "Cable and X-Force Vol 1 11"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Captain> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/portal> ;
+    rdfs:label "Captain"^^rdf:langString ;
+    ns1:box <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alexis_(Earth-14161)> ;
+    rdfs:comment """Many characters in the Marvel Universe use code-names starting by the title Captain, Cap'n or Cap. To be noted that it correspond also to a military, police and navy titles, who aren't listed below (except for the military super-heroes and criminals). Most of those title represent their country or an aspect of their powers.
+This listing doesn't list the different heroes using those names, but only the titles, unique or used by several people.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Captain_America_and_the_Mighty_Avengers_Vol_1_8> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shadow> ;
+    rdfs:label "Captain America and the Mighty Avengers Vol 1 8"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:$$_Maje$tic/Appearances> a skos:Concept ;
+    rdfs:label "$$ Maje$tic/Appearances"^^rdf:langString ;
+    skos:prefLabel "$$ Maje$tic/Appearances"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:%22Repowered%22_by_Romulus> rdfs:label "\"Repowered\" by Romulus"^^rdf:langString ;
+    skos:broader <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:Pseudo-Repowered_Mutants> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Central_Intelligence_Agency> rdfs:label "Central Intelligence Agency"^^rdf:langString ;
+    ns1:videogames <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Central_Intelligence_Agency_(Earth-TRN461)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Cerebro%27s_X-Men_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/verify_source> ;
+    rdfs:label "Cerebro's X-Men (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Chaos_War:_Chaos_King_Vol_1> rdfs:label "Chaos War: Chaos King Vol 1"^^rdf:langString ;
+    ns1:totalissues 1 ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Chicago_Comic_and_Entertainment_Expo> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/followus> ;
+    rdfs:label "Chicago Comic and Entertainment Expo"^^rdf:langString ;
+    rdfs:comment """Stuff.
+Comic Conventions"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Christopher_Bradley_(Earth-10005)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mm> ;
+    rdfs:label "Christopher Bradley (Earth-10005)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Christopher_Yost> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/imdb_name> ;
+    rdfs:label "Christopher Yost"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Circus_of_Crime_(Old_West)_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/plagarism> ;
+    rdfs:label "Circus of Crime (Old West) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Clandestine_Vol_2_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flashforwardonly> ;
+    rdfs:label "Clandestine Vol 2 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Clyde_Geromini> rdfs:label "Clyde Geromini"^^rdf:langString ;
+    ns1:background "#FFFFF3"^^rdf:langString ;
+    ns1:border "#ffc9c9"^^rdf:langString ;
+    ns1:message <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/File:Marvel_Logo.png> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Combat_Kelly_Vol_1_20> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/apdeath> ;
+    rdfs:label "Combat Kelly Vol 1 20"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Comics_0_9> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_toc> ;
+    rdfs:label "Comics 0 9"^^rdf:langString ;
+    rdfs:comment """Comics:Contents 0-9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+ 100 Greatest Marvels of All Time, The (2001) 15-Love (2011) 1602 (2003-2004) 1602: New World (2005) 1602: Fantastick Four (2006-2007) 2-Gun Western (1956, Atlas Comics) 2001: A Space Odyssey (1976-1977) 2010 (1985) 2099 A.D. (1995) 2099 A.D. Apocalypse (1995) 2099 A.D. Genesis (1996) 2099: Manifest Destiny (1998) 2099: World of Doom (1995) 2099 Sketchbook (1993) 2099 Unlimited (1993-1995) 2099: World of Tomorrow (1996-1997) 3-D Action (1954, Atlas Comics) 3-D Tales of the West (1954, Atlas Comics) 4 (2006-2008) 411 (2003) 5 Ronin (2011) 67 Seconds (1992, Epic)
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Contents> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/framework> ;
+    rdfs:label "Contents"^^rdf:langString ;
+    rdfs:comment """Return to the Main Page
+es:Tebeos:Contenidos"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Cowgirl_Romances_Vol_1> rdfs:label "Cowgirl Romances Vol 1"^^rdf:langString ;
+    ns1:issuelist <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Jeanie_Vol_1> ;
+    ns1:previousvol <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Jeanie_Vol_1> ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Current_events_Archives> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/caution> ;
+    rdfs:label "Current events Archives"^^rdf:langString ;
+    rdfs:comment """These are the archives of days gone by...
+Choose a year, then choose a month:
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/DC_Universe> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/marveldc_rr> ;
+    rdfs:label "DC Universe"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/DC_Universe/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/marvel_dc_crossovers> ;
+    rdfs:label "DC Universe/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Daredevil:_Reborn_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/screen> ;
+    rdfs:label "Daredevil: Reborn Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Dark_Tower:_The_Gunslinger_Born_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/spoiler> ;
+    rdfs:label "Dark Tower: The Gunslinger Born Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Deadpool:_Too_Soon%3F_Infinite_Comic_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/named> ;
+    rdfs:label "Deadpool: Too Soon? Infinite Comic Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Deadpool_&_Cable:_Split_Second_Infinite_Comic_Vol_1_2> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/unnamed> ;
+    rdfs:label "Deadpool & Cable: Split Second Infinite Comic Vol 1 2"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Descendants_(Race)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/merge_from> ;
+    rdfs:label "Descendants (Race)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Directors_Flag_Test> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/directors/nopi> ;
+    rdfs:label "Directors Flag Test"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Doctor_Strange_Vol_1_384> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/possesses> ;
+    rdfs:label "Doctor Strange Vol 1 384"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Doctor_Who> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/disambig> ;
+    rdfs:label "Doctor Who"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Earth-10511> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/deceased> ;
+    rdfs:label "Earth-10511"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Earth-2149/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/thumbnav> ;
+    rdfs:label "Earth-2149/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Earth-81122> rdfs:label "Earth-81122"^^rdf:langString ;
+    ns3:CdivAlign <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Benjamin_Grimm_(Earth-81122)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Earth-TRN037> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/rename> ;
+    rdfs:label "Earth-TRN037"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Emma_Frost_(Earth-81211)/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/corpse> ;
+    rdfs:label "Emma Frost (Earth-81211)/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Essential_Series_Vol_1_Iron_Man_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/impersonates> ;
+    rdfs:label "Essential Series Vol 1 Iron Man 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Essential_X-Men_Vol_3_27> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/reprint> ;
+    rdfs:label "Essential X-Men Vol 3 27"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Exiles_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/morph> ;
+    rdfs:label "Exiles Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Exiles_Vol_1_81> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/morph2> ;
+    rdfs:label "Exiles Vol 1 81"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Extraordinary_X-Men_Vol_1_13> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/carving> ;
+    rdfs:label "Extraordinary X-Men Vol 1 13"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Family_Ties> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vscft> ;
+    rdfs:label "Family Ties"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Fantastic_Four_Vol_3_31> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/apnm> ;
+    rdfs:label "Fantastic Four Vol 3 31"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/For_Love_Nor_Money> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flnm> ;
+    rdfs:label "For Love Nor Money"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Franklin_Richards:_Sons_of_Geniuses_Vol_1> rdfs:label "Franklin Richards: Sons of Geniuses Vol 1"^^rdf:langString ;
+    ns1:nextissue "Franklin Richards: Son of a Genius Vol 1"^^rdf:langString ;
+    ns1:previousissue "Franklin Richards: Son of a Genius Vol 1"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Galactus_(Earth-30847)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vgd> ;
+    rdfs:label "Galactus (Earth-30847)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Gallery:Contents> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/main_page> ;
+    rdfs:label "Gallery:Contents"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Gehenna_Stone> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/distinguish> ;
+    rdfs:label "Gehenna Stone"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/George_Caragonne> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/title> ;
+    rdfs:label "George Caragonne"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Giant-Size_Spider-Man_Vol_2> rdfs:label "Giant-Size Spider-Man Vol 2"^^rdf:langString ;
+    ns1:creators "Joe Caramagna"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Griffith_Observatory> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/wp2> ;
+    rdfs:label "Griffith Observatory"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Harlan_Ellison> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/also_on_wikipedia> ;
+    rdfs:label "Harlan Ellison"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hedge_Knight_2:_Sworn_Sword_Vol_1> rdfs:label "Hedge Knight 2: Sworn Sword Vol 1"^^rdf:langString ;
+    ns1:firstissue 1 ;
+    ns1:lastissue 6 ;
+    rdfs:comment """WtRedirect
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hero> rdfs:label "Hero"^^rdf:langString ;
+    ns1:teames <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Academy_(Earth-TRN562)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Heroic_Age:_Villains_Vol_1> rdfs:label "Heroic Age: Villains Vol 1"^^rdf:langString ;
+    ns1:endyear 2011 ;
+    ns1:startyear 2011 ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Horsemen_of_Apocalypse_(Earth-12131)/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/team_images> ;
+    rdfs:label "Horsemen of Apocalypse (Earth-12131)/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Howard_Stark_(Earth-20051)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/stark_industries_(earth-20051)> ;
+    rdfs:label "Howard Stark (Earth-20051)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:Characters/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/characterhub> ;
+    rdfs:label "Hub:Characters/1"^^rdf:langString ;
+    rdfs:comment """Comic - Angela.jpg|Angela|link=http://marvel.wikia.com/Angela_(Earth-TRN274)|linktext=Angela joins the Marvel Universe during the events of Age of Ultron
+__NOTOC__"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:Comics/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mainpage/newreleases> ;
+    rdfs:label "Hub:Comics/1"^^rdf:langString ;
+    rdfs:comment """Comic - Fresh Start.jpg|Fresh Start|link=Fresh Start|linktext=New stories. New series.
+Comic - Infinity Wars.jpg|Infinity Wars|link=Infinity Wars|linktext=The fight for the Infinity Stones!
+Comic - Hunt for Wolverine.jpg|Hunt for Wolverine|link=Hunt for Wolverine|linktext=The mystery behind his return unravels!
+Comic - Infinity Countdown.jpg|Infinity Countdown|link=Infinity Countdown|linktext=They hold infinity!
+Arc - Marvel Legacy.jpg|Marvel Legacy|link=http://marvel.wikia.com/wiki/Marvel_Legacy|linktext=Make Mine Marvel!
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:Events/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/eventhub> ;
+    rdfs:label "Hub:Events/1"^^rdf:langString ;
+    ns1:file "Convention - Jamie and Victor Lucas.jpg"^^rdf:langString ;
+    ns1:story "Are you lucky enough to have tickets? If so, we would love to hear from you! Wikia and the Marvel Database will be there again, too. Last year, was a blast for us, but we want to hear from you. Share with us your stories of Comic Cons gone by..."^^rdf:langString ;
+    ns1:story1link "User_blog:Jamie/San_Diego_Comic_Con_2013"^^rdf:langString ;
+    ns1:story3link "User_blog:Gcheung28/Submit_Questions_for_Marvel_at_SDCC"^^rdf:langString ;
+    rdfs:comment """WikiaLiveSlider.png|Not Going to Comic Con?|link=http://marvel.wikia.com/User_blog:Gcheung28/Submit_Questions_for_Marvel_at_SDCC|linktext=Submit questions you'd like answered!
+Convention - San Diego Comic Con.png|Comic Con International|link=http://marvel.wikia.com/San_Diego_Comic_Con|linktext=San Diego, July 17-21, 2013
+File:Convention_-_C2E2.PNG|C2E2|link=http://marvel.wikia.com/Chicago_Comic_and_Entertainment_Expo|linktext=Chicago, April 26-28, 2013
+Convention - WonderCon.jpg|WonderCon|link=http://marvel.wikia.com/WonderCon|linktext=Anaheim, March 29-31, 2013
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:Games/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/gameshub/slider> ;
+    rdfs:label "Hub:Games/1"^^rdf:langString ;
+    rdfs:comment """Game - Marvel's Spider-Man.jpg|Marvel's Spider-Man|link=Marvel's Spider-Man (video game)|linktext=Be greater.
+Game - Marvel Strike Force.jpg|Marvel Strike Force|link=Marvel Strike Force|linktext=Heroes only.
+Game - Marvel Future Fight.jpg|Marvel Future Fight|link=Marvel Future Fight|linktext=Fight against destiny for the fate of the universe!
+Game - Marvel Contest of Champions.jpg||link=Marvel Contest of Champions|linktext=Become the ultimate Marvel champion!
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:Movies/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/headinga> ;
+    rdfs:label "Hub:Movies/1"^^rdf:langString ;
+    rdfs:comment """Movie - Marvel Rising Secret Warriors.jpg|Marvel Rising: Secret Warriors|link=Marvel Rising: Secret Warriors|linktext=Rise up.
+Movie - Ant-Man and the Wasp.jpg|Ant-Man and the Wasp|link=Ant-Man and the Wasp (film)|linktext=Real heroes. Not actual size.
+Movie - Venom.jpg|Venom|link=Venom (film)|linktext=We are Venom.
+Movie - Captain Marvel.jpg|Captain Marvel|link=Captain Marvel (film)|linktext=Higher. Further. Faster.
+Movie - Avengers Infinity War.jpg|Avengers: Infinity War|link=Avengers: Infinity War|linktext=The end is near.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:Story_Arcs/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/archub> ;
+    rdfs:label "Hub:Story Arcs/1"^^rdf:langString ;
+    rdfs:comment """Arc - Infinity.jpg|Infinity|link=http://marvel.wikia.com/Infinity_(Event)|linktext=Nothing lasts forever.
+Arc - Age of Ultron.jpg|Age of Ultron|link=http://marvel.wikia.com/Age_of_Ultron|linktext=Submit or perish.
+Arc - Avengers vs. X-Men.jpg|Avengers vs. X-Men|link=http://marvel.wikia.com/Avengers_vs._X-Men_(Event)|linktext=An End to Life on Earth?
+Arc - X-Men Schism.jpg|Schism|link=http://marvel.wikia.com/Schism_(Event)|linktext=United No More
+Arc - Fear Itself.jpg|Fear Itself|link=http://marvel.wikia.com/Fear_Itself|linktext=Nothing to Fear? Are You Sure?
+__NOTOC__"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hub:TV/1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/tvhub/slider> ;
+    rdfs:label "Hub:TV/1"^^rdf:langString ;
+    rdfs:comment """TV - Marvel's Iron Fist.jpg|Marvel's Iron Fist|link=Marvel's Iron Fist|linktext=Trained together. Fought together. Brothers. Enemies. Living weapons.
+TV - Avengers Assemble.jpg||link=Marvel's Avengers Assemble|linktext=Time to reign.
+TV - The Gifted.jpg|The Gifted|link=The Gifted (TV series)|linktext=The dawn of the mutant age.
+TV - Marvel's Luke Cage.jpg|Marvel's Luke Cage|link=Marvel's Luke Cage|linktext=Hero is your word, not mine.
+TV - Marvel's Cloak & Dagger.jpg|Marvel's Cloak & Dagger|link=Marvel's Cloak & Dagger|linktext=One will live, one will die.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hulk> rdfs:label "Hulk"^^rdf:langString ;
+    ns1:realted <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/James_Howlett_(Earth-616)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Iron_Man_Vol_5_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/on_screen> ;
+    rdfs:label "Iron Man Vol 5 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Jane_Foster> rdfs:label "Jane Foster"^^rdf:langString ;
+    ns1:imagesize 450 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Johann_Shmidt_(Clone)> rdfs:label "Johann Shmidt (Clone)"^^rdf:langString ;
+    ns1:mainimagesize 250 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Joshua_Kane_(Earth-616)/Gallery> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/character_images> ;
+    rdfs:label "Joshua Kane (Earth-616)/Gallery"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Jubilation_Lee_(Earth-616)> rdfs:label "Jubilation Lee (Earth-616)"^^rdf:langString ;
+    ns1:equipment <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sunlight_Pendant> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Kamorr_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/quotewithcat> ;
+    rdfs:label "Kamorr (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Kick-Ass_Vol_1_6> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/kick-ass> ;
+    rdfs:label "Kick-Ass Vol 1 6"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mark_Hazzard:_Merc_Annual_Vol_1> rdfs:label "Mark Hazzard: Merc Annual Vol 1"^^rdf:langString ;
+    ns1:featured <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marcus_Hazzard_(Earth-148611)> ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel> rdfs:label "Marvel"^^rdf:langString ;
+    ns1:newHeader1X <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Carol_Danvers_(Earth-398)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel%27s_Playback_Season_1_3> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/drawing> ;
+    rdfs:label "Marvel's Playback Season 1 3"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel_Comics> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/brclear> ;
+    rdfs:label "Marvel Comics"^^rdf:langString ;
+    rdfs:comment "Marvel Comics is a comic book publishing house famous for creating notable characters such as Spider-Man, Captain America, Iron Man, Hulk, Thor, Black Widow, Hawkeye, the Avengers, the Guardians of the Galaxy, the X-Men, the Fantastic Four, the Defenders, the Inhumans, Wolverine, Deadpool, X-23, Gambit, Jean Grey, Storm, Beast, Cyclops, Nightcrawler, Colossus, Rogue, Iceman, Legion, Kitty Pryde, Angel, Psylocke, Emma Frost, Doctor Strange, Black Panther, Captain Marvel, Silver Surfer, Daredevil, Elektra, the Punisher, Elektra, Ghost Rider, Blade, Luke Cage, Jessica Jones, Iron Fist, Blade, Ant-Man and the Wasp, the Thing, the Human Torch, Star-Lord, Rocket Raccoon and Groot, the Vision, Gamora, Drax the Destroyer, Nebula, Scarlet Witch, Quicksilver, the Winter Soldier, Falcon, Black Bolt, "@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel_Database> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/discordintegrator> ;
+    rdfs:label "Marvel Database"^^rdf:langString ;
+    rdfs:comment """Game - Marvel's Spider-Man.jpg|Marvel's Spider-Man|link=Marvel's Spider-Man (video game)|linktext=Be greater.
+TV - Marvel's Iron Fist.jpg|Marvel's Iron Fist|link=Marvel's Iron Fist|linktext=Trained together. Fought together. Brothers. Enemies. Living weapons.
+Comic - Infinity Wars.jpg|Infinity Wars|link=Infinity Wars|linktext=The fight for the Infinity Stones!
+Movie - Ant-Man and the Wasp.jpg|Ant-Man and the Wasp|link=Ant-Man and the Wasp (film)|linktext=Real heroes. Not actual size.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel_Heroes_(UK)_Vol_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_list_no_dpl> ;
+    rdfs:label "Marvel Heroes (UK) Vol 1"^^rdf:langString ;
+    rdfs:comment """Back to title selection : [[:Category:Comics |Comics ]] : Marvel Heroes (UK) Vol 1 [[Category:Comics ]]
+See Also: 
+Back to title selection : [[:Category:Comics |Comics ]] : Marvel Heroes (UK) Vol 1 [[Category:Comics ]]
+en:Marvel Heroes"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel_Masterworks_Vol_1_36> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/reprint_from> ;
+    rdfs:label "Marvel Masterworks Vol 1 36"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marvel_Premiere_Classic_Vol_1_49> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/thor_rr> ;
+    rdfs:label "Marvel Premiere Classic Vol 1 49"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mature_Content_Screen_Page> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mature_screen> ;
+    rdfs:label "Mature Content Screen Page"^^rdf:langString ;
+    rdfs:comment """This is only a test. Go on about your business.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mesmero_(Vincent)_(Earth-92131)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/!> ;
+    rdfs:label "Mesmero (Vincent) (Earth-92131)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mole_Elephant_(Counter-Earth)_(Earth-751263)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/e> ;
+    rdfs:label "Mole Elephant (Counter-Earth) (Earth-751263)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Ms._Marvel_Vol_3_5> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/origin> ;
+    rdfs:label "Ms. Marvel Vol 3 5"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mutopia_X_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/invisible> ;
+    rdfs:label "Mutopia X Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/N%27Baza_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/character> ;
+    rdfs:label "N'Baza (Earth-616)"^^rdf:langString ;
+    ns1:baseofoperations <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Wakanda> ;
+    ns1:citizenship "Wakandan"^^rdf:langString ;
+    ns1:death "Avengers #87"^^rdf:langString ;
+    ns1:eyes "Brown"^^rdf:langString ;
+    ns1:first "Avengers #87"^^rdf:langString ;
+    ns1:gender "Male"^^rdf:langString ;
+    ns1:hair "Brown"^^rdf:langString ;
+    ns1:historytext <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/T%27Chaka_(Earth-616)> ;
+    ns1:identity "No Dual"^^rdf:langString ;
+    ns1:origin <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Homo_sapiens> ;
+    ns1:placeofbirth <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Wakanda> ;
+    ns1:powers "None."^^rdf:langString ;
+    ns1:realname "N'Baza"^^rdf:langString ;
+    ns1:relatives <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/B%27Tumba_(Earth-616)> ;
+    ns1:universe "Earth-616"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Nell_Ruggles_(Earth-31916)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/superhuman_agility> ;
+    rdfs:label "Nell Ruggles (Earth-31916)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Official_Handbook_of_the_Marvel_Universe_Vol_1_1/Collection> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/collection_page> ;
+    rdfs:label "Official Handbook of the Marvel Universe Vol 1 1/Collection"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Operation_Galactic_Storm> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/ogs> ;
+    rdfs:label "Operation Galactic Storm"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Professor_X> rdfs:label "Professor X"^^rdf:langString ;
+    ns1:imageSize 200 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Punisher_(Robot)> rdfs:label "Punisher (Robot)"^^rdf:langString ;
+    ns1:videoGame 6109 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Reed_Richards_(Earth-944)/Power_Grid> rdfs:label "Reed Richards (Earth-944)/Power Grid"^^rdf:langString ;
+    ns1:charref "Teleporter"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Regent> rdfs:label "Regent"^^rdf:langString ;
+    ns1:group <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Princess_Regent_Intelligence_Division_Executives_(Earth-616)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sandman> rdfs:label "Sandman"^^rdf:langString ;
+    ns1:pthers <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sandman_(Tsum_Tsum)_(Earth-616)> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Secret_Invasion_Saga_Vol_1> rdfs:label "Secret Invasion Saga Vol 1"^^rdf:langString ;
+    ns1:crossovers "Secret Invasion"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sentinel_9> rdfs:label "Sentinel 9"^^rdf:langString ;
+    ns1:mainPicSize 350 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sentry:_Fallen_Sun_Vol_1> rdfs:label "Sentry: Fallen Sun Vol 1"^^rdf:langString ;
+    ns1:storyarcs "Siege"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sersi_(Earth-398)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/verify> ;
+    rdfs:label "Sersi (Earth-398)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spells_and_Phrases> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/alphatoc> ;
+    rdfs:label "Spells and Phrases"^^rdf:langString ;
+    ns1:align "center"^^rdf:langString ;
+    ns1:externallinks "External Links"^^rdf:langString ;
+    ns1:references "References"^^rdf:langString ;
+    rdfs:comment "The Sorcerer Supreme often conjures specific magical effects for specific purposes. Among them are: Bolts of Bedevilment/Balthakk (as an offensive weapon) A Conjurer's Cone (to transport an enemy away to another realm) The Crimson Bands of Cyttorak (to bind someone) The Crystals of Cyndriarr (a mystical energy blast composed of yellow rectangular crystals, with the touch of \"certain death\") The Demons of Denak (summons what mainfests as numerous invisible claws, used for attack or to rip suitable objects apart) The Flames of the Faltine (as an offensive weapon) The Images of Ikonn (to create duplicate images of himself or others to confuse an enemy) The Icy Tendrils of Ikthalon (entraps the target in a freezing coating of ice)Icy The Mists of Munnopor (creates a mist that blinds the enemy)"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spider-Man> rdfs:label "Spider-Man"^^rdf:langString ;
+    ns7:_ 71166 .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spider-Man%27s_Tangled_Web_Vol_1_8> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shadows> ;
+    rdfs:label "Spider-Man's Tangled Web Vol 1 8"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spider-Man:_The_Animated_Series_Season_2_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/appnote> ;
+    rdfs:label "Spider-Man: The Animated Series Season 2 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spider-Man_2099_Annual_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/kenny_(thorite)_(earth-928)> ;
+    rdfs:label "Spider-Man 2099 Annual Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spider-Man_2_(film)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shh> ;
+    rdfs:label "Spider-Man 2 (film)"^^rdf:langString ;
+    rdfs:comment "ru:Человек-паук 2"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Spoiler_Screen_Test_Page> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/spoiler_screen> ;
+    rdfs:label "Spoiler Screen Test Page"^^rdf:langString ;
+    rdfs:comment """Hi. There aren't actually spoilers here, we're just testing a new feature. What did you think?
+— 14:27, May 11, 2013 (UTC)"""@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Temlpate:Main_Page_Characters> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/portalhero> ;
+    rdfs:label "Temlpate:Main Page Characters"^^rdf:langString ;
+    ns1:link "Ant-Man"^^rdf:langString ;
+    ns1:linktext "Ant-Man"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Terminus_Factor> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/terminus_factor> ;
+    rdfs:label "Terminus Factor"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Thor_Vol_1> rdfs:label "Thor Vol 1"^^rdf:langString ;
+    ns1:storytitle <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Journey_into_Mystery_Vol_1> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Thor_by_Dan_Jurgens_&_John_Romita_Jr_Vol_1_1> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/thor_links> ;
+    rdfs:label "Thor by Dan Jurgens & John Romita Jr Vol 1 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/War_Machine:_Brothers_in_Arms_Vol_1> rdfs:label "War Machine: Brothers in Arms Vol 1"^^rdf:langString ;
+    ns1:endmonth "June"^^rdf:langString ;
+    ns1:startmonth "June"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Weird_Wonder_Tales_Vol_1_14> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/host> ;
+    rdfs:label "Weird Wonder Tales Vol 1 14"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Wendigo_(British_Columbia)_(Earth-616)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/superhuman_durability> ;
+    rdfs:label "Wendigo (British Columbia) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/What_If%3F_Vol_2_108> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/computer> ;
+    rdfs:label "What If? Vol 2 108"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/X-23_Vol_3_21> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/leaves> ;
+    rdfs:label "X-23 Vol 3 21"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/X-Jet> rdfs:label "X-Jet"^^rdf:langString ;
+    ns1:seeAlso <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:X-Jet/Appearances> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/X-Men:_Evolution> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/simple_portal> ;
+    rdfs:label "X-Men: Evolution"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/X-Men:_Messiah_Complex> rdfs:label "X-Men: Messiah Complex"^^rdf:langString ;
+    ns1:width "60.0"^^<http://dbkwik.webdatacommons.org/datatype/perCent> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/!> a owl:Class ;
+    rdfs:label "!"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1st> a owl:Class ;
+    rdfs:label "1st"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1st_real_name> a owl:Class ;
+    rdfs:label "1st Real Name"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1stas> a owl:Class ;
+    rdfs:label "1stas"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1stchron> a owl:Class ;
+    rdfs:label "1stChron"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/1stfull> a owl:Class ;
+    rdfs:label "1stFull"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/a> a owl:Class ;
+    rdfs:label "A"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/adaptation> a owl:Class ;
+    rdfs:label "Adaptation"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/adaptation2> a owl:Class ;
+    rdfs:label "Adaptation2"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/alphatoc> a owl:Class ;
+    rdfs:label "AlphaTOC"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/also_on_wikipedia> a owl:Class ;
+    rdfs:label "Also on Wikipedia"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/apdeath> a owl:Class ;
+    rdfs:label "ApDeath"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/apn> a owl:Class ;
+    rdfs:label "Apn"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/apnm> a owl:Class ;
+    rdfs:label "Apnm"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/appnote> a owl:Class ;
+    rdfs:label "AppNote"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/archub> a owl:Class ;
+    rdfs:label "ArcHub"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/arw2> a owl:Class ;
+    rdfs:label "ARW2"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/brclear> a owl:Class ;
+    rdfs:label "Brclear"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/bts> a owl:Class ;
+    rdfs:label "BTS"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/c> a owl:Class ;
+    rdfs:label "C"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cameo> a owl:Class ;
+    rdfs:label "Cameo"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/carving> a owl:Class ;
+    rdfs:label "Carving"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/caution> a owl:Class ;
+    rdfs:label "Caution"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/character> a owl:Class ;
+    rdfs:label "Character"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/character_images> a owl:Class ;
+    rdfs:label "Character Images"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/characterhub> a owl:Class ;
+    rdfs:label "CharacterHub"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cid> a owl:Class ;
+    rdfs:label "Cid"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cidil> a owl:Class ;
+    rdfs:label "Cidil"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cidnodpl> a owl:Class ;
+    rdfs:label "Cidnodpl"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cis> a owl:Class ;
+    rdfs:label "Cis"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cisnodpl> a owl:Class ;
+    rdfs:label "Cisnodpl"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/citation> a owl:Class ;
+    rdfs:label "Citation"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cite_web> a owl:Class ;
+    rdfs:label "Cite web"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/clear> a owl:Class ;
+    rdfs:label "Clear"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cnst> a owl:Class ;
+    rdfs:label "Cnst"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/collection_page> a owl:Class ;
+    rdfs:label "Collection Page"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_disambig> a owl:Class ;
+    rdfs:label "Comic Disambig"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_list> a owl:Class ;
+    rdfs:label "Comic List"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_list_no_dpl> a owl:Class ;
+    rdfs:label "Comic List No DPL"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comic_toc> a owl:Class ;
+    rdfs:label "Comic TOC"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/comicdisambig> a owl:Class ;
+    rdfs:label "ComicDisambig"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/computer> a owl:Class ;
+    rdfs:label "Computer"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/conversation> a owl:Class ;
+    rdfs:label "Conversation"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/conversation2> a owl:Class ;
+    rdfs:label "Conversation2"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/corpse> a owl:Class ;
+    rdfs:label "Corpse"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/cvd> a owl:Class ;
+    rdfs:label "Cvd"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/dcdp> a owl:Class ;
+    rdfs:label "DCDP"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/death> a owl:Class ;
+    rdfs:label "Death"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/deceased> a owl:Class ;
+    rdfs:label "Deceased"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/delete> a owl:Class ;
+    rdfs:label "Delete"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/destroyed> a owl:Class ;
+    rdfs:label "Destroyed"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/destruction> a owl:Class ;
+    rdfs:label "Destruction"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/dies> a owl:Class ;
+    rdfs:label "Dies"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/directors/nopi> a owl:Class ;
+    rdfs:label "Directors/NoPI"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/disambig> a owl:Class ;
+    rdfs:label "Disambig"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/disambiguation> a owl:Class ;
+    rdfs:label "Disambiguation"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/discordintegrator> a owl:Class ;
+    rdfs:label "DiscordIntegrator"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/distinguish> a owl:Class ;
+    rdfs:label "Distinguish"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/drawing> a owl:Class ;
+    rdfs:label "Drawing"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/dream> a owl:Class ;
+    rdfs:label "Dream"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/e> a owl:Class ;
+    rdfs:label "E"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/ed> a owl:Class ;
+    rdfs:label "Ed"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/eventhub> a owl:Class ;
+    rdfs:label "EventHub"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/extension_dpl> a owl:Class ;
+    rdfs:label "Extension DPL"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/fact> a owl:Class ;
+    rdfs:label "Fact"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/fb> a owl:Class ;
+    rdfs:label "Fb"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/final> a owl:Class ;
+    rdfs:label "Final"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/first> a owl:Class ;
+    rdfs:label "First"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flash> a owl:Class ;
+    rdfs:label "Flash"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flashback> a owl:Class ;
+    rdfs:label "Flashback"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flashforwardonly> a owl:Class ;
+    rdfs:label "FlashforwardOnly"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flashonly> a owl:Class ;
+    rdfs:label "FlashOnly"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/flnm> a owl:Class ;
+    rdfs:label "FLNM"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/followus> a owl:Class ;
+    rdfs:label "FollowUs"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/framework> a owl:Class ;
+    rdfs:label "Framework"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/g> a owl:Class ;
+    rdfs:label "G"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/gameshub/slider> a owl:Class ;
+    rdfs:label "GamesHub/Slider"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/green> a owl:Class ;
+    rdfs:label "Green"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/headinga> a owl:Class ;
+    rdfs:label "HeadingA"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/healing_factor> a owl:Class ;
+    rdfs:label "Healing Factor"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/hologram> a owl:Class ;
+    rdfs:label "Hologram"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/host> a owl:Class ;
+    rdfs:label "Host"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/illusion> a owl:Class ;
+    rdfs:label "Illusion"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/imaw> a owl:Class ;
+    rdfs:label "IMAW"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/imdb_name> a owl:Class ;
+    rdfs:label "Imdb name"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/imdb_title> a owl:Class ;
+    rdfs:label "Imdb title"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/impersonates> a owl:Class ;
+    rdfs:label "Impersonates"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/invisible> a owl:Class ;
+    rdfs:label "Invisible"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/invoked> a owl:Class ;
+    rdfs:label "Invoked"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/item_images> a owl:Class ;
+    rdfs:label "Item Images"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/joins> a owl:Class ;
+    rdfs:label "Joins"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/kenny_(thorite)_(earth-928)> a owl:Class ;
+    rdfs:label "Kenny (Thorite) (Earth-928)"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/kick-ass> a owl:Class ;
+    rdfs:label "Kick-Ass"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/last> a owl:Class ;
+    rdfs:label "Last"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/leaves> a owl:Class ;
+    rdfs:label "Leaves"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/long_portal> a owl:Class ;
+    rdfs:label "Long Portal"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/m> a owl:Class ;
+    rdfs:label "M"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/main> a owl:Class ;
+    rdfs:label "Main"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/main_page> a owl:Class ;
+    rdfs:label "Main Page"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mainpage/newreleases> a owl:Class ;
+    rdfs:label "MainPage/NewReleases"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/marvel_dc_crossovers> a owl:Class ;
+    rdfs:label "Marvel DC Crossovers"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/marvel_movies> a owl:Class ;
+    rdfs:label "Marvel Movies"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/marveldc_rr> a owl:Class ;
+    rdfs:label "MarvelDC RR"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mature_screen> a owl:Class ;
+    rdfs:label "Mature Screen"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/md> a owl:Class ;
+    rdfs:label "Md"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/memory> a owl:Class ;
+    rdfs:label "Memory"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mentioned> a owl:Class ;
+    rdfs:label "Mentioned"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/merge> a owl:Class ;
+    rdfs:label "Merge"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/merge_from> a owl:Class ;
+    rdfs:label "Merge From"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/merge_to> a owl:Class ;
+    rdfs:label "Merge To"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/messagebox> a owl:Class ;
+    rdfs:label "MessageBox"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/minor> a owl:Class ;
+    rdfs:label "Minor"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/mm> a owl:Class ;
+    rdfs:label "MM"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/morph> a owl:Class ;
+    rdfs:label "Morph"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/morph2> a owl:Class ;
+    rdfs:label "Morph2"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/movetagged> a owl:Class ;
+    rdfs:label "MoveTagged"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/named> a owl:Class ;
+    rdfs:label "Named"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/nav> a owl:Class ;
+    rdfs:label "Nav"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/navigation> a owl:Class ;
+    rdfs:label "Navigation"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/official_power_grid> a owl:Class ;
+    rdfs:label "Official Power Grid"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/ogs> a owl:Class ;
+    rdfs:label "OGS"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/on_screen> a owl:Class ;
+    rdfs:label "On Screen"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/only> a owl:Class ;
+    rdfs:label "Only"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/only_dies> a owl:Class ;
+    rdfs:label "Only Dies"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/onscreen> a owl:Class ;
+    rdfs:label "OnScreen"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/onscreenonly> a owl:Class ;
+    rdfs:label "OnScreenOnly"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/origin> a owl:Class ;
+    rdfs:label "Origin"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/out-of-universe> a owl:Class ;
+    rdfs:label "Out-of-universe"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/pagename> a owl:Class ;
+    rdfs:label "PAGENAME"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/photo> a owl:Class ;
+    rdfs:label "Photo"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/plagarism> a owl:Class ;
+    rdfs:label "Plagarism"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/plagiarism> a owl:Class ;
+    rdfs:label "Plagiarism"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/portal> a owl:Class ;
+    rdfs:label "Portal"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/portalhero> a owl:Class ;
+    rdfs:label "PortalHero"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/possessed> a owl:Class ;
+    rdfs:label "Possessed"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/possessedby> a owl:Class ;
+    rdfs:label "PossessedBy"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/possesses> a owl:Class ;
+    rdfs:label "Possesses"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/poster> a owl:Class ;
+    rdfs:label "Poster"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/power_grid> a owl:Class ;
+    rdfs:label "Power Grid"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/quote> a owl:Class ;
+    rdfs:label "Quote"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/quote/draft> a owl:Class ;
+    rdfs:label "Quote/draft"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/quotewithcat> a owl:Class ;
+    rdfs:label "QuoteWithCat"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/r> a owl:Class ;
+    rdfs:label "R"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/recap> a owl:Class ;
+    rdfs:label "Recap"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/recaponly> a owl:Class ;
+    rdfs:label "RecapOnly"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/ref> a owl:Class ;
+    rdfs:label "Ref"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/referenced> a owl:Class ;
+    rdfs:label "Referenced"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/reflist> a owl:Class ;
+    rdfs:label "Reflist"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/rename> a owl:Class ;
+    rdfs:label "Rename"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/reprint> a owl:Class ;
+    rdfs:label "Reprint"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/reprint_from> a owl:Class ;
+    rdfs:label "Reprint From"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/screen> a owl:Class ;
+    rdfs:label "Screen"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/seealso> a owl:Class ;
+    rdfs:label "Seealso"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shadow> a owl:Class ;
+    rdfs:label "Shadow"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shadows> a owl:Class ;
+    rdfs:label "Shadows"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shh> a owl:Class ;
+    rdfs:label "Shh"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/shrink> a owl:Class ;
+    rdfs:label "Shrink"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/simple_portal> a owl:Class ;
+    rdfs:label "Simple Portal"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/spoiler> a owl:Class ;
+    rdfs:label "Spoiler"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/spoiler_screen> a owl:Class ;
+    rdfs:label "Spoiler Screen"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/stark_industries_(earth-20051)> a owl:Class ;
+    rdfs:label "Stark Industries (Earth-20051)"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/statue> a owl:Class ;
+    rdfs:label "Statue"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/storygrab> a owl:Class ;
+    rdfs:label "StoryGrab"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/succession_box> a owl:Class ;
+    rdfs:label "Succession box"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/superhuman_agility> a owl:Class ;
+    rdfs:label "Superhuman Agility"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/superhuman_durability> a owl:Class ;
+    rdfs:label "Superhuman Durability"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/team_images> a owl:Class ;
+    rdfs:label "Team Images"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/terminus_factor> a owl:Class ;
+    rdfs:label "Terminus Factor"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/thor_links> a owl:Class ;
+    rdfs:label "Thor Links"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/thor_rr> a owl:Class ;
+    rdfs:label "Thor RR"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/thumbnav> a owl:Class ;
+    rdfs:label "Thumbnav"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/title> a owl:Class ;
+    rdfs:label "Title"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/toy> a owl:Class ;
+    rdfs:label "Toy"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/tvhub/slider> a owl:Class ;
+    rdfs:label "TVHub/Slider"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/unnamed> a owl:Class ;
+    rdfs:label "Unnamed"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vd> a owl:Class ;
+    rdfs:label "Vd"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/verify> a owl:Class ;
+    rdfs:label "Verify"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/verify_source> a owl:Class ;
+    rdfs:label "Verify source"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vgd> a owl:Class ;
+    rdfs:label "Vgd"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vision> a owl:Class ;
+    rdfs:label "Vision"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/vscft> a owl:Class ;
+    rdfs:label "VSCFT"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/wikipedia> a owl:Class ;
+    rdfs:label "Wikipedia"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/wp> a owl:Class ;
+    rdfs:label "WP"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/wp2> a owl:Class ;
+    rdfs:label "WP2"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/year_category> a owl:Class ;
+    rdfs:label "Year Category"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/class/youtube> a owl:Class ;
+    rdfs:label "YouTube"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/18th_Kree_Diplomatic_Gestalt_(Earth-200080)> rdfs:label "18th Kree Diplomatic Gestalt (Earth-200080)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/18th_Kree_Diplomatic_Gestalt_(Earth-TRN285)> rdfs:label "18th Kree Diplomatic Gestalt (Earth-TRN285)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/2-D_(Earth-616)> rdfs:label "2-D (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/50-State_Initiative_(Earth-TRN579)> rdfs:label "50-State Initiative (Earth-TRN579)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Abominations_(Earth-9200)> rdfs:label "Abominations (Earth-9200)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Action_Pack_(Earth-616)> rdfs:label "Action Pack (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alexis_(Earth-14161)> rdfs:label "Alexis (Earth-14161)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Alpha_Flight_Vol_1_6> rdfs:label "Alpha Flight Vol 1 6"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Amazing_Spider-Man_Vol_1_248> rdfs:label "Amazing Spider-Man Vol 1 248"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Artificially_Intelligent_Digital_Assistant_(Earth-199999)> rdfs:label "Artificially Intelligent Digital Assistant (Earth-199999)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_X-Men_Vol_2_1> rdfs:label "Astonishing X-Men Vol 2 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Astonishing_X-Men_Vol_2_3> rdfs:label "Astonishing X-Men Vol 2 3"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Atlas_Foundation_(Earth-616)> rdfs:label "Atlas Foundation (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Academy_(Earth-TRN562)> rdfs:label "Avengers Academy (Earth-TRN562)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Initiative> rdfs:label "Avengers Initiative"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Avengers_Vol_1_239> rdfs:label "Avengers Vol 1 239"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/B%27Tumba_(Earth-616)> rdfs:label "B'Tumba (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Barbuda> rdfs:label "Barbuda"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Benjamin_Grimm_(Earth-81122)> rdfs:label "Benjamin Grimm (Earth-81122)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Blade> rdfs:label "Blade"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Captain_America:_Living_Legend_Vol_1> rdfs:label "Captain America: Living Legend Vol 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Captain_America_Vol_1_289> rdfs:label "Captain America Vol 1 289"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Carol_Danvers_(Earth-398)> rdfs:label "Carol Danvers (Earth-398)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:%22Spider-Girl%22_(Mutant/Spider_Clone)_(Earth-616)/Appearances> rdfs:label "\"Spider-Girl\" (Mutant/Spider Clone) (Earth-616)/Appearances"^^rdf:langString,
+        "Gwendolyne Stacy (Spider-Girl) (Earth-616)/Appearances"^^rdf:langString ;
+    skos:related <http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:%22Spider-Girl%22_(Mutant/Spider_Clone)_(Earth-616)/Appearances> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:Boats_and_Subs> rdfs:label "Boats and Subs"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Category:Pseudo-Repowered_Mutants> rdfs:label "Pseudo-Repowered Mutants"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Central_Intelligence_Agency_(Earth-TRN461)> rdfs:label "Central Intelligence Agency (Earth-TRN461)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Charles_Chandler_(Earth-616)> rdfs:label "Charles Chandler (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Charles_Chandler_IV_(Earth-616)> rdfs:label "Charles Chandler IV (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Chris_Bachalo_(Earth-1218)> a <http://dbkwik.webdatacommons.org/marvel.wikia.com/class/fact> ;
+    rdfs:label "Chris Bachalo (Earth-1218)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Cloak_and_Dagger_Vol_1_4> rdfs:label "Cloak and Dagger Vol 1 4"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Conan_the_Barbarian_Vol_1_154> rdfs:label "Conan the Barbarian Vol 1 154"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Conan_the_King_Vol_1_20> rdfs:label "Conan the King Vol 1 20"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Daredevil_Vol_1_202> rdfs:label "Daredevil Vol 1 202"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Hellfire_Club> rdfs:label "Hellfire Club"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Homo_sapiens> rdfs:label "Homo sapiens"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/James_Howlett_(Earth-616)> rdfs:label "James Howlett (Earth-616)"^^rdf:langString ;
+    rdfs:comment "hu:James Howlett (616)pt:Wolverine (James \"Logan\" Howlett)pt-br:Wolverine (James \"Logan\" Howlett)"@en .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/James_Morris_(Earth-200111)> rdfs:label "James Morris (Earth-200111)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Journey_into_Mystery_Vol_1> rdfs:label "Journey into Mystery Vol 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Marcus_Hazzard_(Earth-148611)> rdfs:label "Marcus Hazzard (Earth-148611)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Mutant_Growth_Hormone> rdfs:label "Mutant Growth Hormone"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Official_Handbook_of_the_Marvel_Universe_A-Z_Vol_1_3> rdfs:label "Official Handbook of the Marvel Universe A-Z Vol 1 3"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Princess_Regent_Intelligence_Division_Executives_(Earth-616)> rdfs:label "Princess Regent Intelligence Division Executives (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Salvador_Larroca> rdfs:label "Salvador Larroca"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sandman_(Tsum_Tsum)_(Earth-616)> rdfs:label "Sandman (Tsum Tsum) (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Skrulls> rdfs:label "Skrulls"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Sunlight_Pendant> rdfs:label "Sunlight Pendant"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/T%27Chaka_(Earth-616)> rdfs:label "T'Chaka (Earth-616)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Western_Outlaws_&_Sheriffs_Vol_1> rdfs:label "Western Outlaws & Sheriffs Vol 1"^^rdf:langString ;
+    rdfs:comment "WtRedirect"@en .
+
+<http://marvel.wikia.com/wiki/Special:FilePath/$$_Maje$tic_from_Agents_of_Atlas_Vol_1_4_001.png> a ns2:Image ;
+    dc:rights <http://marvel.wikia.com/wiki/File:$$_Maje$tic_from_Agents_of_Atlas_Vol_1_4_001.png> ;
+    foaf:thumbnail <http://marvel.wikia.com/wiki/Special:FilePath/$$_Maje$tic_from_Agents_of_Atlas_Vol_1_4_001.png?width=300> .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Jeanie_Vol_1> rdfs:label "Jeanie Vol 1"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvel.wikia.com/resource/Wakanda> rdfs:label "Wakanda"^^rdf:langString .
+

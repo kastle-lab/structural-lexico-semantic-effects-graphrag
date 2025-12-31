@@ -1,0 +1,9 @@
+KG,Model,lexical_query_overlap,semantic_similarity_to_CQ,semantic_soft_coverage_to_CQ,semantic_diversity_score,mean_rho_across_H2
+Big,Claude,-0.5,0.5,0.5,0.5,0.25
+Big,Deepseek R1,-0.8660254037844387,0.5,-0.5,0.5,-0.09150635094610968
+Big,GPT OSS,0.5,-0.5,0.5,0.5,0.25
+Big,GPT5,0.5,0.5,1.0,0.5,0.625
+Small,Claude,0.5,-0.5,1.0,-1.0,0.0
+Small,Deepseek R1,-0.5,-0.5,-0.5,-0.5,-0.5
+Small,GPT OSS,0.5,-0.5,0.5,-1.0,-0.125
+Small,GPT5,-0.5,-1.0,1.0,-1.0,-0.375

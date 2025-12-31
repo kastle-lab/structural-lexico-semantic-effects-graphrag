@@ -1,0 +1,13 @@
+Model,mean_value,Complexity,metric
+Claude,0.030714285714285715,Complex,lexical_query_overlap
+Deepseek R1,0.02,Complex,lexical_query_overlap
+GPT OSS,0.05944444444444444,Complex,lexical_query_overlap
+GPT5,0.037500000000000006,Complex,lexical_query_overlap
+Claude,0.07875000000000001,Moderate,lexical_query_overlap
+Deepseek R1,0.0375,Moderate,lexical_query_overlap
+GPT OSS,0.08626984126984127,Moderate,lexical_query_overlap
+GPT5,0.05541666666666667,Moderate,lexical_query_overlap
+Claude,0.031818181818181815,Simple,lexical_query_overlap
+Deepseek R1,0.065,Simple,lexical_query_overlap
+GPT OSS,0.03101190476190476,Simple,lexical_query_overlap
+GPT5,0.02825,Simple,lexical_query_overlap

@@ -1,0 +1,13 @@
+Model,mean_value,Complexity,metric
+Claude,0.4211678004535147,Complex,semantic_diversity_score
+Deepseek R1,0.4307638888888889,Complex,semantic_diversity_score
+GPT OSS,0.3695361552028219,Complex,semantic_diversity_score
+GPT5,0.43129133597883595,Complex,semantic_diversity_score
+Claude,0.46368055555555554,Moderate,semantic_diversity_score
+Deepseek R1,0.36583333333333334,Moderate,semantic_diversity_score
+GPT OSS,0.44451719576719584,Moderate,semantic_diversity_score
+GPT5,0.5101840277777777,Moderate,semantic_diversity_score
+Claude,0.4709469696969697,Simple,semantic_diversity_score
+Deepseek R1,0.5086574074074074,Simple,semantic_diversity_score
+GPT OSS,0.45764219576719567,Simple,semantic_diversity_score
+GPT5,0.41743703703703705,Simple,semantic_diversity_score

@@ -1,0 +1,13 @@
+Model,mean_value,Complexity,metric
+Claude,0.77,Complex,semantic_soft_coverage_to_CQ
+Deepseek R1,0.7575000000000001,Complex,semantic_soft_coverage_to_CQ
+GPT OSS,0.776,Complex,semantic_soft_coverage_to_CQ
+GPT5,0.77125,Complex,semantic_soft_coverage_to_CQ
+Claude,0.765,Moderate,semantic_soft_coverage_to_CQ
+Deepseek R1,0.365,Moderate,semantic_soft_coverage_to_CQ
+GPT OSS,0.7795238095238095,Moderate,semantic_soft_coverage_to_CQ
+GPT5,0.7658333333333334,Moderate,semantic_soft_coverage_to_CQ
+Claude,0.7577272727272727,Simple,semantic_soft_coverage_to_CQ
+Deepseek R1,0.7841666666666667,Simple,semantic_soft_coverage_to_CQ
+GPT OSS,0.7716666666666666,Simple,semantic_soft_coverage_to_CQ
+GPT5,0.7588333333333334,Simple,semantic_soft_coverage_to_CQ

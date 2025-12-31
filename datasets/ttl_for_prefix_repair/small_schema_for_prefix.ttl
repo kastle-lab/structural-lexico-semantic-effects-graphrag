@@ -1,0 +1,1936 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/property/> .
+@prefix ns2: <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/property/affiliation(s)> .
+@prefix ns3: <http://dbkwik.webdatacommons.org/ontology/> .
+@prefix ns6: <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/property/%23> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/> a owl:Ontology .
+
+ns6: a rdf:Property ;
+    rdfs:label "#"@en .
+
+ns1:actor a rdf:Property ;
+    rdfs:label "actor"@en .
+
+ns1:affiliation a rdf:Property ;
+    rdfs:label "affiliation"@en .
+
+ns2: a rdf:Property ;
+    rdfs:label "affiliation(s)"@en .
+
+ns1:after a rdf:Property ;
+    rdfs:label "After"@en .
+
+ns1:age a rdf:Property ;
+    rdfs:label "age"@en .
+
+ns1:alias a rdf:Property ;
+    rdfs:label "alias"@en .
+
+ns1:allies a rdf:Property ;
+    rdfs:label "allies"@en .
+
+ns1:appearances a rdf:Property ;
+    rdfs:label "appearances"@en .
+
+ns1:artista a rdf:Property ;
+    rdfs:label "artista"@en .
+
+ns1:artists a rdf:Property ;
+    rdfs:label "artists"@en .
+
+ns1:author a rdf:Property ;
+    rdfs:label "author"@en .
+
+ns1:battles a rdf:Property ;
+    rdfs:label "battles"@en .
+
+ns1:before a rdf:Property ;
+    rdfs:label "Before"@en .
+
+ns1:begin a rdf:Property ;
+    rdfs:label "begin"@en .
+
+ns1:body a rdf:Property ;
+    rdfs:label "body"@en .
+
+ns1:boxoffice a rdf:Property ;
+    rdfs:label "boxoffice"@en .
+
+ns1:builder a rdf:Property ;
+    rdfs:label "builder"@en .
+
+ns1:casualties a rdf:Property ;
+    rdfs:label "casualties"@en .
+
+ns1:channel a rdf:Property ;
+    rdfs:label "channel"@en .
+
+ns1:charaacter a rdf:Property ;
+    rdfs:label "charaacter"@en .
+
+ns1:character a rdf:Property ;
+    rdfs:label "character"@en .
+
+ns1:citizenship a rdf:Property ;
+    rdfs:label "citizenship"@en .
+
+ns1:clearance a rdf:Property ;
+    rdfs:label "clearance"@en .
+
+ns1:coat a rdf:Property ;
+    rdfs:label "coat"@en .
+
+ns1:combatants a rdf:Property ;
+    rdfs:label "combatants"@en .
+
+ns1:comic a rdf:Property ;
+    rdfs:label "comic"@en .
+
+ns1:commanders a rdf:Property ;
+    rdfs:label "commanders"@en .
+
+ns1:composer a rdf:Property ;
+    rdfs:label "composer"@en .
+
+ns1:conc a rdf:Property ;
+    rdfs:label "conc"@en .
+
+ns1:continent a rdf:Property ;
+    rdfs:label "continent"@en .
+
+ns1:contribution a rdf:Property ;
+    rdfs:label "contribution"@en .
+
+ns1:contributors a rdf:Property ;
+    rdfs:label "contributors"@en .
+
+ns1:cover a rdf:Property ;
+    rdfs:label "cover"@en .
+
+ns1:creator a rdf:Property ;
+    rdfs:label "creator"@en .
+
+ns1:current a rdf:Property ;
+    rdfs:label "Current"@en .
+
+ns1:date a rdf:Property ;
+    rdfs:label "date"@en .
+
+ns1:dates a rdf:Property ;
+    rdfs:label "dates"@en .
+
+ns1:defender a rdf:Property ;
+    rdfs:label "defender"@en .
+
+ns1:developers a rdf:Property ;
+    rdfs:label "developers"@en .
+
+ns1:directed a rdf:Property ;
+    rdfs:label "directed"@en .
+
+ns1:director a rdf:Property ;
+    rdfs:label "director"@en .
+
+ns1:directors a rdf:Property ;
+    rdfs:label "directors"@en .
+
+ns1:dob a rdf:Property ;
+    rdfs:label "DOB"@en .
+
+ns1:documentary a rdf:Property ;
+    rdfs:label "documentary"@en .
+
+ns1:dod a rdf:Property ;
+    rdfs:label "DOD"@en .
+
+ns1:duration a rdf:Property ;
+    rdfs:label "duration"@en .
+
+ns1:eason a rdf:Property ;
+    rdfs:label "eason"@en .
+
+ns1:editorinchief a rdf:Property ;
+    rdfs:label "editorinchief"@en .
+
+ns1:end a rdf:Property ;
+    rdfs:label "end"@en .
+
+ns1:episodes a rdf:Property ;
+    rdfs:label "episodes"@en .
+
+ns1:executor a rdf:Property ;
+    rdfs:label "executor"@en .
+
+ns1:film a rdf:Property ;
+    rdfs:label "film"@en .
+
+ns1:films a rdf:Property ;
+    rdfs:label "films"@en .
+
+ns1:first a rdf:Property ;
+    rdfs:label "first"@en .
+
+ns1:firstAired a rdf:Property ;
+    rdfs:label "first aired"@en .
+
+ns1:flag a rdf:Property ;
+    rdfs:label "flag"@en .
+
+ns1:followedBy a rdf:Property ;
+    rdfs:label "followed by"@en .
+
+ns1:formerLeader a rdf:Property ;
+    rdfs:label "former leader"@en .
+
+ns1:formerinhabitants a rdf:Property ;
+    rdfs:label "formerinhabitants"@en .
+
+ns1:formerleaders a rdf:Property ;
+    rdfs:label "formerleaders"@en .
+
+ns1:formermembers a rdf:Property ;
+    rdfs:label "formermembers"@en .
+
+ns1:formernotable a rdf:Property ;
+    rdfs:label "formernotable"@en .
+
+ns1:founder a rdf:Property ;
+    rdfs:label "founder"@en .
+
+ns1:game a rdf:Property ;
+    rdfs:label "game"@en .
+
+ns1:gender a rdf:Property ;
+    rdfs:label "gender"@en .
+
+ns1:heading a rdf:Property ;
+    rdfs:label "heading"@en .
+
+ns1:headquarters a rdf:Property ;
+    rdfs:label "headquarters"@en .
+
+ns1:height a rdf:Property ;
+    rdfs:label "height"@en .
+
+ns1:homeplanet a rdf:Property ;
+    rdfs:label "homeplanet"@en .
+
+ns1:idno a rdf:Property ;
+    rdfs:label "IDno"@en .
+
+ns1:imagebg a rdf:Property ;
+    rdfs:label "imageBG"@en .
+
+ns1:imagecaption a rdf:Property ;
+    rdfs:label "imagecaption"@en .
+
+ns1:inhabitants a rdf:Property ;
+    rdfs:label "inhabitants"@en .
+
+ns1:interest a rdf:Property ;
+    rdfs:label "interest"@en .
+
+ns1:isbn a rdf:Property ;
+    rdfs:label "isbn"@en .
+
+ns1:last a rdf:Property ;
+    rdfs:label "last"@en .
+
+ns1:leader a rdf:Property ;
+    rdfs:label "leader"@en .
+
+ns1:link a rdf:Property ;
+    rdfs:label "link"@en .
+
+ns1:location a rdf:Property ;
+    rdfs:label "location"@en .
+
+ns1:locations a rdf:Property ;
+    rdfs:label "locations"@en .
+
+ns1:made a rdf:Property ;
+    rdfs:label "made"@en .
+
+ns1:media a rdf:Property ;
+    rdfs:label "media"@en .
+
+ns1:members a rdf:Property ;
+    rdfs:label "members"@en .
+
+ns1:movie a rdf:Property ;
+    rdfs:label "movie"@en .
+
+ns1:movies a rdf:Property ;
+    rdfs:label "movies"@en .
+
+ns1:name a rdf:Property ;
+    rdfs:label "name"@en .
+
+ns1:namesake a rdf:Property ;
+    rdfs:label "namesake"@en .
+
+ns1:next a rdf:Property ;
+    rdfs:label "next"@en .
+
+ns1:nonlinktext a rdf:Property ;
+    rdfs:label "nonlinktext"@en .
+
+ns1:notable a rdf:Property ;
+    rdfs:label "notable"@en .
+
+ns1:notableformer a rdf:Property ;
+    rdfs:label "notableformer"@en .
+
+ns1:oneShot a rdf:Property ;
+    rdfs:label "one-shot"@en .
+
+ns1:oneshot a rdf:Property ;
+    rdfs:label "oneshot"@en .
+
+ns1:otherNames a rdf:Property ;
+    rdfs:label "other names"@en .
+
+ns1:owner a rdf:Property ;
+    rdfs:label "owner"@en .
+
+ns1:owners a rdf:Property ;
+    rdfs:label "owners"@en .
+
+ns1:pages a rdf:Property ;
+    rdfs:label "pages"@en .
+
+ns1:participants a rdf:Property ;
+    rdfs:label "participants"@en .
+
+ns1:passengers a rdf:Property ;
+    rdfs:label "passengers"@en .
+
+ns1:penciled a rdf:Property ;
+    rdfs:label "penciled"@en .
+
+ns1:performer a rdf:Property ;
+    rdfs:label "performer"@en .
+
+ns1:pilot a rdf:Property ;
+    rdfs:label "pilot"@en .
+
+ns1:place a rdf:Property ;
+    rdfs:label "place"@en .
+
+ns1:planet a rdf:Property ;
+    rdfs:label "planet"@en .
+
+ns1:planner a rdf:Property ;
+    rdfs:label "planner"@en .
+
+ns1:population a rdf:Property ;
+    rdfs:label "population"@en .
+
+ns1:precededBy a rdf:Property ;
+    rdfs:label "preceded by"@en .
+
+ns1:prev a rdf:Property ;
+    rdfs:label "prev"@en .
+
+ns1:previous a rdf:Property ;
+    rdfs:label "previous"@en .
+
+ns1:prisoners a rdf:Property ;
+    rdfs:label "prisoners"@en .
+
+ns1:produced a rdf:Property ;
+    rdfs:label "produced"@en .
+
+ns1:producer a rdf:Property ;
+    rdfs:label "producer"@en .
+
+ns1:publisher a rdf:Property ;
+    rdfs:label "publisher"@en .
+
+ns1:realName a rdf:Property ;
+    rdfs:label "real name"@en .
+
+ns1:release a rdf:Property ;
+    rdfs:label "release"@en .
+
+ns1:released a rdf:Property ;
+    rdfs:label "released"@en .
+
+ns1:result a rdf:Property ;
+    rdfs:label "result"@en .
+
+ns1:runntime a rdf:Property ;
+    rdfs:label "runntime"@en .
+
+ns1:runtime a rdf:Property ;
+    rdfs:label "runtime"@en .
+
+ns1:seal a rdf:Property ;
+    rdfs:label "seal"@en .
+
+ns1:season a rdf:Property ;
+    rdfs:label "season"@en .
+
+ns1:series a rdf:Property ;
+    rdfs:label "series"@en .
+
+ns1:showrunners a rdf:Property ;
+    rdfs:label "showrunners"@en .
+
+ns1:side a rdf:Property ;
+    rdfs:label "side"@en .
+
+ns1:species a rdf:Property ;
+    rdfs:label "species"@en .
+
+ns1:srclink a rdf:Property ;
+    rdfs:label "srclink"@en .
+
+ns1:status a rdf:Property ;
+    rdfs:label "status"@en .
+
+ns1:succeeded a rdf:Property ;
+    rdfs:label "succeeded"@en .
+
+ns1:succeededBy a rdf:Property ;
+    rdfs:label "succeeded by"@en .
+
+ns1:system a rdf:Property ;
+    rdfs:label "system"@en .
+
+ns1:target a rdf:Property ;
+    rdfs:label "target"@en .
+
+ns1:team a rdf:Property ;
+    rdfs:label "team"@en .
+
+ns1:text a rdf:Property ;
+    rdfs:label "text"@en .
+
+ns1:title a rdf:Property ;
+    rdfs:label "title"@en .
+
+ns1:tvSeries a rdf:Property ;
+    rdfs:label "tv series"@en .
+
+ns1:type a rdf:Property ;
+    rdfs:label "type"@en .
+
+ns1:users a rdf:Property ;
+    rdfs:label "users"@en .
+
+ns1:vehicles a rdf:Property ;
+    rdfs:label "vehicles"@en .
+
+ns1:voiceActor a rdf:Property ;
+    rdfs:label "voice actor"@en .
+
+ns1:war a rdf:Property ;
+    rdfs:label "war"@en .
+
+ns1:weapons a rdf:Property ;
+    rdfs:label "weapons"@en .
+
+ns1:webSeries a rdf:Property ;
+    rdfs:label "web series"@en .
+
+ns1:writer a rdf:Property ;
+    rdfs:label "writer"@en .
+
+ns1:writers a rdf:Property ;
+    rdfs:label "writers"@en .
+
+ns1:wrote a rdf:Property ;
+    rdfs:label "wrote"@en .
+
+ns1:years a rdf:Property ;
+    rdfs:label "years"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/%5BAKA_Start_at_the_Beginning> ns3:wikiPageWikiLinkText "[AKA Start at the Beginning"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/...And_Finally:_Black_Bolt> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/episode> ;
+    rdfs:label "...And Finally: Black Bolt"^^rdf:langString ;
+    ns1:director <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Billy_Gierhart> ;
+    ns1:firstAired "2017-11-10"^^xsd:date ;
+    ns1:previous <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Havoc_in_the_Hidden_Land> ;
+    ns1:season 1 ;
+    ns1:writer <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Rick_Cleveland> ;
+    ns3:abstract """...And Finally: Black Bolt is the eighth and final episode of the first season of the television series Inhumans.
+
+"""@en ;
+    ns3:thumbnail <http://marvelcinematicuniverse.wikia.com/wiki/Special:FilePath/...And_Finally_Black_Bolt_photo.jpg?width=300> ;
+    ns3:wikiPageExternalLink <http://marvel.wikia.com/wiki/Main_Page> ;
+    ns3:wikiPageWikiLink <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aaron_Hendry> ;
+    dcterms:subject <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Inhumans_(TV_series)_Episodes> ;
+    rdfs:comment """...And Finally: Black Bolt is the eighth and final episode of the first season of the television series Inhumans.
+
+"""@en ;
+    skos:altLabel "...And Finally: Black Bolt"^^rdf:langString ;
+    foaf:depiction <http://marvelcinematicuniverse.wikia.com/wiki/Special:FilePath/...And_Finally_Black_Bolt_photo.jpg> .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/...And_Finally:_Black_Bolt/Gallery> a owl:Thing ;
+    rdfs:label "...And Finally: Black Bolt/Gallery"^^rdf:langString ;
+    rdfs:comment """A gallery of images of, or related to, the Inhumans episode ...And Finally: Black Bolt.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/.380> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/episode> ;
+    rdfs:label ".380"^^rdf:langString ;
+    ns1:next <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/The_Dark_at_the_End_of_the_Tunnel> ;
+    rdfs:comment """.380 is the eleventh episode of the second season of the Netflix exclusive television series Daredevil.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/0-8-4_(disambiguation)> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/disambig> ;
+    rdfs:label "0-8-4 (disambiguation)"^^rdf:langString ;
+    ns3:wikiPageDisambiguates <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/0-8-4_(Code)> .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/107th_Infantry_Regiment> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/organization> ;
+    rdfs:label "107th Infantry Regiment"^^rdf:langString ;
+    ns1:formermembers <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Joseph_Rogers> ;
+    ns1:headquarters <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/New_York> ;
+    ns1:leader <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chester_Phillips> ;
+    ns1:locations <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Europe> ;
+    ns1:members <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Gilmore_Hodge> ;
+    ns1:movie <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_The_First_Avenger> ;
+    ns1:tvSeries <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agent_Carter_(TV_series)> ;
+    rdfs:comment """The 107th Infantry Regiment was a regiment of the New York Army National Guard. They fought for the United States Army for periods of time throughout the Twentieth Century, most notably during the Great War and World War II. They served with distinction, being instrumental in the destruction of Nazi Germany and the HYDRA threat.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/10cc> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/music> ;
+    rdfs:label "10cc"^^rdf:langString ;
+    rdfs:comment """10cc are an English art rock band.
+Their song "I'm Not in Love" is featured in Guardians of the Galaxy.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/10th_Precinct_Police_Station> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/location> ;
+    rdfs:label "10th Precinct Police Station"^^rdf:langString ;
+    ns1:continent <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/North_America> ;
+    ns1:location <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/New_York> ;
+    rdfs:comment """The 10th Precinct Police Station is one of the police stations based in New York City.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/1900s> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/timeline> ;
+    rdfs:label "1900s"^^rdf:langString ;
+    ns1:before <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Before_20th_Century> ;
+    rdfs:comment """This is a timeline of events that occurred during the 1900s.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2018> rdfs:label "2018"^^rdf:langString ;
+    ns1:after <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2091> ;
+    rdfs:comment """This is a timeline of events that occurred during 2018.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A$AP_Ferg> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/wps> ;
+    rdfs:label "A$AP Ferg"^^rdf:langString ;
+    rdfs:comment """Darold Ferguson, Jr., professionally known as A$AP Ferg, is an American rapper.
+His collaboration with Remy Ma, "East Coast", is featured in the Runaways episode Kingdom.
+He contributed to the soundtrack of Luke Cage.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A%27Lars> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/character> ;
+    rdfs:label "A'Lars"^^rdf:langString ;
+    ns1:citizenship <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Titan> ;
+    ns1:species <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Titans> ;
+    rdfs:comment """A'Lars was a Titan and the father of the galactic warlord Thanos.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M._Arc_Armiger> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/item> ;
+    rdfs:label "A.I.M. Arc Armiger"^^rdf:langString ;
+    ns1:creator <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M.> ;
+    ns1:owners <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M.> ;
+    ns1:users <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M.> ;
+    rdfs:comment """The A.I.M. Arc Armiger was an enhanced version of the Roxxon Armiger created with implants from Project P.R.O.T.E.A.N..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M._Gunship> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/vehicle> ;
+    rdfs:label "A.I.M. Gunship"^^rdf:langString ;
+    ns1:builder <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M.> ;
+    ns1:owner <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M.> ;
+    ns1:passengers <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man> ;
+    rdfs:comment """A.I.M. Gunships were transport and combat vehicles developed by A.I.M..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M._President> rdfs:label "A.I.M. President"^^rdf:langString ;
+    ns1:voiceActor <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Fred_Tatasciore> ;
+    rdfs:comment """The A.I.M. President was the CEO of Advanced Idea Mechanics.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.J._Franklin> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/actor> ;
+    rdfs:label "A.J. Franklin"^^rdf:langString ;
+    rdfs:comment """A.J. Franklin portrayed Protester #4 in the Luke Cage episodes Take It Personal and Now You're Mine.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aakons> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/race> ;
+    rdfs:label "Aakons"^^rdf:langString ;
+    rdfs:comment """The Aakons are race of hairless yellow-skinned aliens that are spread throughout the galaxy.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aaron> rdfs:label "Aaron"^^rdf:langString ;
+    ns1:actor <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/D.C._Pierson> ;
+    rdfs:comment """Aaron is an employee who worked at Apple Inc. in a shopping mall in Washington, D.C..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aaron_Behr> rdfs:label "Aaron Behr"^^rdf:langString ;
+    ns1:character <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/List_of_Minor_Characters> ;
+    rdfs:comment """Aaron Behr portrayed Angry Man in the Agents of S.H.I.E.L.D. episode Pilot.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aaron_D._Alexander> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/filmmaker> ;
+    rdfs:label "Aaron D. Alexander"^^rdf:langString ;
+    rdfs:comment """Aaron D. Alexander was a stunt performer in the Agents of S.H.I.E.L.D. episodes A Life Spent, A Life Earned and The Real Deal.
+He was also a stunt double for Eme Ikwuakor in the Inhumans episodes Those Who Would Destroy Us, Divide -- And Conquer, Something Inhuman This Way Comes..., The Gentleman's Name is Gorgon and ...And Finally: Black Bolt.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Abduction_at_Rae%27s_Restaurant> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/conflict> ;
+    rdfs:label "Abduction at Rae's Restaurant"^^rdf:langString ;
+    ns1:commanders <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Enoch> ;
+    ns1:date <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2017> ;
+    ns1:place <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chicago> ;
+    ns1:result <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2091> ;
+    ns1:side <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Enoch> ;
+    rdfs:comment """The Abduction at Rae's Restaurant was a kidnapping operation led by the Chronicom Enoch, who intended to send Phil Coulson and his team to the year 2091 so that they could find a way to avert the prophesied Destruction of Earth.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Abilisk> rdfs:label "Abilisk"^^rdf:langString ;
+    ns1:dod <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2014> ;
+    rdfs:comment """The Abilisk was a multi-dimensional being who was devouring the power sources of the Sovereign planet. The Sovereign hired the Guardians of the Galaxy to fight it.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Absorbing_Man> rdfs:label "Absorbing Man"^^rdf:langString ;
+    ns1:alias <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/George_Talbot> ;
+    ns1:idno 23 ;
+    rdfs:comment """Carl "Crusher" Creel was an enhanced individual with the ability to absorb the properties of anything he touches. Originally a boxer, Creel appeared on S.H.I.E.L.D.'s radar and had been deemed too dangerous, so John Garrett was sent to kill him. Garrett, who was secretly working for HYDRA, faked Creel's death and recruited him into HYDRA. Creel worked for Daniel Whitehall and was ordered to steal the Obelisk, but Creel was stopped by Phil Coulson's team and handed over to Glenn Talbot for custody. Having recovered from the effects of the Obelisk, Creel then underwent months of treatment to be rid of HYDRA's brainwashing. 
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adam_Banks> rdfs:label "Adam Banks"^^rdf:langString ;
+    ns1:produced <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Luke_Cage_(TV_series)> ;
+    rdfs:comment """Adam Banks was a post-production supervisor of the first season of Daredevil and the first season of Jessica Jones.
+He was also an associate producer of the first season of Luke Cage tv series.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adolf_Hitler_(Fiction)> rdfs:label "Adolf Hitler (Fiction)"^^rdf:langString ;
+    ns1:realName <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adolf_Hitler> ;
+    rdfs:comment """Adolf Hitler was a fictional version of the real-life dictator of Nazi Germany. He appeared in several American propaganda tools during World War II as the nemesis of Captain America.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adrian_Toomes%27_Campaign> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/war> ;
+    rdfs:label "Adrian Toomes' Campaign"^^rdf:langString ;
+    ns1:battles <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ambush_at_the_Staten_Island_Ferry> ;
+    ns1:begin <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2012> ;
+    ns1:casualties <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Jackson_Brice> ;
+    ns1:conc <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chase_of_Quake> ;
+    rdfs:comment """Adrian Toomes' Campaign was a series of events in which Adrian Toomes, who began living a criminal lifestyle after the Department of Damage Control drove him out of business, came into conflict with the costumed superhero known as Spider-Man.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adrian_Toomes%27_Headquarters> rdfs:label "Adrian Toomes' Headquarters"^^rdf:langString ;
+    ns1:notable <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Jackson_Brice> ;
+    rdfs:comment """Adrian Toomes' Headquarters is an arms-dealing business that reverse-engineers and weaponize alien technology for sale on the streets in order to earn profits.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Afghanistan> rdfs:label "Afghanistan"^^rdf:langString ;
+    ns1:interest <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bagram> ;
+    rdfs:comment """Afghanistan, officially the Islamic Republic of Afghanistan, is a landlocked country in Asia.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Afterlife_(episode)> rdfs:label "Afterlife (episode)"^^rdf:langString ;
+    ns1:title <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Afterlife> ;
+    rdfs:comment """Afterlife is the sixteenth episode of the second season of the television series Agents of S.H.I.E.L.D. and the thirty-eighth episode overall.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agent_Carter:_Season_One_Declassified> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/book> ;
+    rdfs:label "Agent Carter: Season One Declassified"^^rdf:langString ;
+    ns1:media "Behind-the-Scenes art book"^^rdf:langString ;
+    ns1:pages 200 ;
+    ns1:released "2015-07-07"^^xsd:date ;
+    rdfs:comment """Agent Carter: Season One Declassified is the official artbook and behind-the-scenes story about the first season of Agent Carter.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agent_Carter_(Season_One)/Home_Video> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/dvd> ;
+    rdfs:label "Agent Carter (Season One)/Home Video"^^rdf:langString ;
+    ns1:prev <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D._(Season_Two)/Home_Video> ;
+    ns1:runtime "20100.0"^^<http://dbkwik.webdatacommons.org/datatype/second> ;
+    ns1:series <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agent_Carter_(TV_series)> ;
+    rdfs:comment """Agent Carter: The Complete First Season is the DVD and Blu-ray release for Agent Carter Season One.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agent_Carter_(TV_series)/Season_One> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/season> ;
+    rdfs:label "Agent Carter (TV series)/Season One"^^rdf:langString ;
+    ns1:episodes 8 ;
+    rdfs:comment """The First Season of Agent Carter premiered on January 6, 2015 on ABC.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D./Gallery> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/col-end> ;
+    rdfs:label "Agents of S.H.I.E.L.D./Gallery"^^rdf:langString ;
+    rdfs:comment """The following is an index of galleries of screenshots and promotional material from the television show Agents of S.H.I.E.L.D..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_Academy> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/web_series> ;
+    rdfs:label "Agents of S.H.I.E.L.D.: Academy"^^rdf:langString ;
+    rdfs:comment """Agents of S.H.I.E.L.D.: Academy is a five-part original web series designed as a behind-the-scenes feature for Agents of S.H.I.E.L.D. Contestants will compete in different challenges related to Agents of S.H.I.E.L.D. in order to win an appearance in the fourth season of the show.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_Agents_of_HYDRA> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/reflist> ;
+    rdfs:label "Agents of S.H.I.E.L.D.: Agents of HYDRA"^^rdf:langString ;
+    rdfs:comment """Agents of S.H.I.E.L.D.: Agents of HYDRA is an event that serves as the third of the fourth season of Agents of S.H.I.E.L.D.. It focuses on the alternative lives the main characters have inside the Framework.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_Fallen_Agent> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/marvel> ;
+    rdfs:label "Agents of S.H.I.E.L.D.: Fallen Agent"^^rdf:langString ;
+    rdfs:comment """Agents of S.H.I.E.L.D. Fallen Agent is an event that serves as the conclusion for the third season of Agents of S.H.I.E.L.D.. It focuses on the inevitable death of one of the S.H.I.E.L.D. agents.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_LMD> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/otheruses> ;
+    rdfs:label "Agents of S.H.I.E.L.D.: LMD"^^rdf:langString ;
+    rdfs:comment """Agents of S.H.I.E.L.D. LMD is an event that serves as the second of the fourth season of Agents of S.H.I.E.L.D.. It focuses on the proliferation of Life-Model Decoys.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_Season_Four_Declassified> rdfs:label "Agents of S.H.I.E.L.D.: Season Four Declassified"^^rdf:langString ;
+    ns1:author <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Troy_Benjamin> ;
+    rdfs:comment """Agents of S.H.I.E.L.D.: Season Four Declassified is the official artbook and behind-the-scenes story about the fourth season of Agents of S.H.I.E.L.D..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_Season_One_Declassified> rdfs:label "Agents of S.H.I.E.L.D.: Season One Declassified"^^rdf:langString ;
+    ns1:publisher <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Dan_Buckley> ;
+    rdfs:comment """Agents of S.H.I.E.L.D.: Season One Declassified is the official artbook and behind-the-scenes story about the first season of Agents of S.H.I.E.L.D..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D.:_The_Chase> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/comic> ;
+    rdfs:label "Agents of S.H.I.E.L.D.: The Chase"^^rdf:langString ;
+    ns6:_ 1 ;
+    ns1:artists <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chris_Sotomayor> ;
+    ns1:editorinchief <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Axel_Alonso> ;
+    ns1:writers <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/George_Kitson> ;
+    rdfs:comment """Agents of S.H.I.E.L.D.: The Chase is a comic sponsored by Lexus available exclusively at the 2014 San Diego Comic-Con or digitally to subscribers of the Marvel Unlimited program. The comic is based on the Agents of S.H.I.E.L.D. television series, and takes place soon after the first season episode Seeds.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D._(soundtrack)> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/soundtrack> ;
+    rdfs:label "Agents of S.H.I.E.L.D. (soundtrack)"^^rdf:langString ;
+    ns1:producer <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bear_McCreary> ;
+    rdfs:comment """Marvel's Agents of S.H.I.E.L.D. (Original Soundtrack Album) is the soundtrack for the series of the same name. It was released on September 4, 2015.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aida> rdfs:label "Aida"^^rdf:langString ;
+    ns1:dob <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2016> ;
+    rdfs:comment """Artificial Intelligent Digital Assistant (A.I.D.A.) was originally a Life-Model Decoy created by Holden Radcliffe from a defunct S.H.I.E.L.D. program. Physically modeled after Radcliffe's former love interest Agnes Kitsworth, Aida was initially kept secret from the public as her presence was in violation of the Sokovia Accords. Under Radcliffe's supervision, Aida became a valued S.H.I.E.L.D. asset, saving Melinda May, rescuing Phil Coulson and Leo Fitz from Hell, and stopping Eli Morrow from destroying Los Angeles.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aida_Mashaka_Croal> rdfs:label "Aida Mashaka Croal"^^rdf:langString ;
+    ns1:wrote <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/AKA_Freak_Accident> ;
+    rdfs:comment """Aida Mashaka Croal was a producer of Luke Cage.
+She also wrote the Luke Cage episodes Blowin' Up the Spot, The Basement and Can't Front on Me and the Jessica Jones episodes AKA Freak Accident and AKA Pork Chop.
+She also co-wrote the Luke Cage episode You Know My Steez with Cheo Hodari Coker.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Air_Crash_in_the_Himalayas> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/event> ;
+    rdfs:label "Air Crash in the Himalayas"^^rdf:langString ;
+    ns1:executor <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Harold_Meachum> ;
+    ns1:planner <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Hand> ;
+    ns1:target <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Wendell_Rand> ;
+    rdfs:comment """The Air Crash in the Himalayas was an assassination orchestrated by Harold Meachum and Madame Gao and staged as an air crash accident, in order to prevent Wendell Rand from exposing the illegal activities being conducted within Rand Enterprises. Danny Rand became the lone survivor and was rescued by the monks of K'un-Lun.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Alan_Fine> rdfs:label "Alan Fine"^^rdf:langString ;
+    ns1:documentary <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_75_Years:_From_Pulp_to_Pop> ;
+    rdfs:comment """Alan Fine is an executive producer on Iron Man 2, Thor, Marvel One-Shot: The Consultant, Captain America: The First Avenger, Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer, The Avengers, Marvel One-Shot: Item 47, Iron Man 3, Marvel One-Shot: Agent Carter, Agents of S.H.I.E.L.D., Thor: The Dark World, Marvel One-Shot: All Hail the King, Captain America: The Winter Soldier, Guardians of the Galaxy, Agent Carter, Daredevil, Avengers: Age of Ultron, Ant-Man, Jessica Jones, Luke Cage, Doctor Strange, The Defenders, Cloak & Dagger and Avengers: Infinity War.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Alan_Taylor> rdfs:label "Alan Taylor"^^rdf:langString ;
+    ns1:directed <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Thor:_The_Dark_World> ;
+    rdfs:comment """Alan Taylor directed Thor: The Dark World.
+He was interviewed for the documentary Marvel Studios: Assembling a Universe.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/All_the_Stars> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/song> ;
+    rdfs:label "All the Stars"^^rdf:langString ;
+    ns1:performer <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Kendrick_Lamar> ;
+    rdfs:comment """"All the Stars" is a song recorded by Kendrick Lamar and SZA for Black Panther: The Album. It was released as a single on January 4, 2018.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ambush_at_Declan_Research_Facility_Lab> rdfs:label "Ambush at Declan Research Facility Lab"^^rdf:langString ;
+    ns1:war <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Uprising_in_Attilan> ;
+    rdfs:comment """The Ambush at Declan Research Facility Lab was a confrontation between a group of Attilan rebels led by Auran and the former King of Attilan Black Bolt, who they had been sent to capture. Although Black Bolt was outnumbered, he managed to escape thanks to the interference of his wife Medusa and her friend Louise Fisher, who helped him to escape after capturing the rebel Locus.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ambush_at_the_Hotel_La_Ona> rdfs:label "Ambush at the Hotel La Ona"^^rdf:langString ;
+    ns1:srclink "Face My Enemy"^^rdf:langString ;
+    rdfs:comment """The Ambush at the Hotel La Ona was a trap set by HYDRA in order to obtain a painting and prevent S.H.I.E.L.D. from further deciphering the Words of Creation.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Andy_Nicholson> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/wp> ;
+    rdfs:label "Andy Nicholson"^^rdf:langString ;
+    rdfs:comment """Andy Nicholson was a supervising art director for Captain America: The First Avenger, and the production designer of Captain Marvel.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ant-Man_(film)/Portal> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/box> ;
+    rdfs:label "Ant-Man (film)/Portal"^^rdf:langString ;
+    ns1:link <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ant-Man_(film)> ;
+    ns1:nonlinktext "Darren Cross"^^rdf:langString ;
+    ns1:text "Ant-Man"^^rdf:langString ;
+    rdfs:comment """Characters from Ant-Man.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ant-Man_Suit> rdfs:label "Ant-Man Suit"^^rdf:langString ;
+    ns1:made <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/1980s> ;
+    rdfs:comment """The Ant-Man Suit is a suit created by Hank Pym to maximize the use of the Pym Particles while also protecting the wearer from the negative side-effects of using Pym Particles.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ant-Man_and_the_Wasp/Trivia> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/stub> ;
+    rdfs:label "Ant-Man and the Wasp/Trivia"^^rdf:langString ;
+    rdfs:comment """A list of trivia related to Ant-Man and the Wasp.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aranda_de_Duero> rdfs:label "Aranda de Duero"^^rdf:langString ;
+    ns1:coat <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/File:Coat_of_Arms_of_Aranda_de_Duero.png> ;
+    ns1:flag <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/File:Banderadearanda.png> ;
+    rdfs:comment """Aranda de Duero is a town located in Spain.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Asgardian_Skiff> rdfs:label "Asgardian Skiff"^^rdf:langString ;
+    ns1:pilot <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Asgardians> ;
+    rdfs:comment """Asgardian Skiffs were a type of hovercraft used by the Asgardians for transportation. They are armed with rapid-firing rotary plasma cannons and missiles.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Assassination_of_Christian_Blake> rdfs:label "Assassination of Christian Blake"^^rdf:langString ;
+    ns1:defender <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Daredevil> ;
+    rdfs:comment """The Assassination of Christian Blake was an attempt by Carl Hoffman to execute his partner Christian Blake.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Atreus_Plastics> rdfs:label "Atreus Plastics"^^rdf:langString ;
+    ns1:status <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Glenn_Industries> ;
+    rdfs:comment """Atreus Plastics is a plastics company operating in New York City founded by Mark Higgins.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Attack_on_the_Sanctums> rdfs:label "Attack on the Sanctums"^^rdf:langString ;
+    ns1:end <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2017> ;
+    rdfs:comment """The Attack on the Sanctums was a series of attacks executed by the Zealots in their quest to destroy the Masters of the Mystic Arts, summon Dormammu and merge Earth with the Dark Dimension.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Avengers_Initiative> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/project> ;
+    rdfs:label "Avengers Initiative"^^rdf:langString ;
+    ns1:participants <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Abomination> ;
+    rdfs:comment """The Avengers Initiative (a.k.a Phase 1) was a secret project created by S.H.I.E.L.D. to create the Avengers, a collection of the most able individuals to defend Earth from imminent global threats; these individuals functioning as a response team to said threats which are too great for the forces of mankind to handle.
+The Initiative was scrapped by the World Security Council after the alien incursion in New Mexico in favor of a weapons development program known as Phase 2. It was eventually reactivated in 2012 during the Chitauri Invasion.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Avengers_Tower> rdfs:label "Avengers Tower"^^rdf:langString ;
+    ns1:notableformer <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Hulk> ;
+    rdfs:comment """Avengers Tower, also known as Stark Tower, was a high-rise building complex located in Manhattan, New York City. Owned and constructed by Tony Stark, the tower is powered by an Arc Reactor that makes it capable of running itself for over a year. The top ten floors were originally all devoted to research and development.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ayesha> rdfs:label "Ayesha"^^rdf:langString ;
+    ns2:_ <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adam_Warlock> ;
+    rdfs:comment """Ayesha is the Golden High Priestess of the Sovereign. She was brought into conflict with the Guardians of the Galaxy as a result of Rocket Raccoon stealing from her people. Having failed to destroy the Guardians herself, Ayesha hired Yondu Udonta and his own band of Ravagers to complete the task, only to be betrayed. With information gained from Taserface, Ayesha's army tried again to kill the Guardians during their battle against Ego, only to fail once again, forcing Ayesha to create Adam Warlock as their greatest weapon to finally get their revenge against the Guardians.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bio-Tech_Force_Enhancement_Project> rdfs:label "Bio-Tech Force Enhancement Project"^^rdf:langString ;
+    ns1:contributors <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Betty_Ross> ;
+    rdfs:comment """The Bio-Tech Force Enhancement Project was an attempt to recreate the results of Project Rebirth, started after the 9/11 attacks in order to make Super Soldiers like Captain America. The project was a failure and started Bruce Banner's initial transformation as Hulk.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Black_Widow> rdfs:label "Black Widow"^^rdf:langString ;
+    ns1:namesake <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Nathaniel_Barton> ;
+    rdfs:comment """Natalia Alianovna "Natasha" Romanoff, better known as Black Widow, is one of the most talented spies and assassins in the entire world and a founding member of the Avengers. Originally an agent of the Soviet agency for foreign intelligence, the KGB, she later became a member of S.H.I.E.L.D., the international counter-intelligence agency. Having extensive mastery in martial arts and armed with her Widow's Bite, Black Widow became one of S.H.I.E.L.D.'s most efficient agents. During one mission, she was sent undercover into Stark Industries to watch Tony Stark due to fears that he was dying. During this mission, Romanoff had assisted Stark with defeating Ivan Vanko's terrorist plots against him.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bombing_of_the_Vienna_International_Centre> rdfs:label "Bombing of the Vienna International Centre"^^rdf:langString ;
+    ns1:type <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Attack_on_the_IFID_Headquarters> ;
+    rdfs:comment """The Bombing of the Vienna International Centre was a terrorist attack on a United Nations ceremony in Austria, orchestrated by Helmut Zemo in his campaign to divide and destroy the Avengers. It resulted in the death of 12 people including T'Chaka, the King of Wakanda.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Brad_Ricker> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/imdb> ;
+    rdfs:label "Brad Ricker"^^rdf:langString ;
+    rdfs:comment """Brad Ricker was a supervising art director on Spider-Man: Homecoming.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Brady_Romberg> rdfs:label "Brady Romberg"^^rdf:langString ;
+    ns1:film <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_The_First_Avenger> ;
+    rdfs:comment """Brady Romberg was a utility stunts performer in Captain America: The First Avenger and a stunt performer in the Agents of S.H.I.E.L.D. episode S.O.S. Part One and the Daredevil episode Shadows in the Glass.
+He was also a stunt double for Bill Paxton in the Agents of S.H.I.E.L.D. episode T.A.H.I.T.I. and Danny Lopes in the Agents of S.H.I.E.L.D. episode Who You Really Are.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bus> rdfs:label "Bus"^^rdf:langString ;
+    ns1:prisoners <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Akela_Amador> ;
+    rdfs:comment "The Bus (formally known as the CXD 23215 Airborne Mobile Command Station officially designated as \"S.H.I.E.L.D. 6-1-6\".) was a specialized Boeing C-17 Globemaster III owned and modified by S.H.I.E.L.D.. The planes were in heavy rotation from the 1980s to the 1990s until S.H.I.E.L.D. built the Helicarrier. Following the Battle of New York on Director Nick Fury's and Agent Phil Coulson's orders, the Bus underwent a complete overhaul. It served as a flying command center for Agent Phil Coulson and his team before being stolen by Grant Ward. Coulson's team reclaimed it during the Battle at Cybertek. It continued its role as Coulson's mobile command center when he became Director of S.H.I.E.L.D, although Coulson's team became primarily based at the Playground."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_75_Heroic_Years> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/documentary> ;
+    rdfs:label "Captain America: 75 Heroic Years"^^rdf:langString ;
+    rdfs:comment """Captain America: 75 Heroic Years is a one-hour special documentary that aired on ABC on January 19, 2016.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_The_First_Avenger_Movie_Special> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/magazine> ;
+    rdfs:label "Captain America: The First Avenger Movie Special"^^rdf:langString ;
+    rdfs:comment """Captain America: The First Avenger Official Movie Special was a magazine. It featured a 22 page comic, cast interviews and photos from the movie.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_The_Winter_Soldier_-_The_Official_Game> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/game> ;
+    rdfs:label "Captain America: The Winter Soldier - The Official Game"^^rdf:langString ;
+    ns1:system ", ,"^^rdf:langString ;
+    rdfs:comment """Captain America: The Winter Soldier - The Official Game is a 2014 video game loosely based on the film of the same name.
+This game is a Hack and Slash, where the player can face R.A.I.D., U.L.T.I.M.A.T.U.M., and other foes.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Carrick_O%27Quinn> rdfs:label "Carrick O'Quinn"^^rdf:langString ;
+    ns1:movies <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Thor_(film)> ;
+    rdfs:comment """Carrick O'Quinn portrayed Frost Giant in Thor and Tall Bouncer in the Agent Carter episode Now is Not the End.
+He was also a utility stunts performer in Thor, Captain America: The First Avenger and Thor: The Dark World and a stunt performer in the Agent Carter episode Now is Not the End.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:0-8-4> a skos:Concept ;
+    rdfs:label "0-8-4"^^rdf:langString ;
+    skos:broader <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Items> ;
+    skos:prefLabel "0-8-4"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Copyright> rdfs:label "Copyright"^^rdf:langString ;
+    skos:related <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Policy> .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Charlotta_Mohlin> rdfs:label "Charlotta Mohlin"^^rdf:langString ;
+    ns1:charaacter "Greeter"^^rdf:langString ;
+    rdfs:comment """Charlotta Mohlin portrayed Greeter in Agents of S.H.I.E.L.D..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chikara_Dojo/Promotional_Campaign> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/clear> ;
+    rdfs:label "Chikara Dojo/Promotional Campaign"^^rdf:langString ;
+    rdfs:comment """After the premiere of the first season of Iron Fist, a promotional website was released on 23 March, 2017. This in-universe website is a introduction page for the Chikara Dojo. The website also contains a promotional video to learn Kenjutsu at the Dojo.
+The webpage includes a advertisement by Rand Enterprises, which is redirected to a Linkedin page for Ward Meachum.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Cloak_&_Dagger_(Original_Television_Series_Soundtrack)> rdfs:label "Cloak & Dagger (Original Television Series Soundtrack)"^^rdf:langString ;
+    ns1:runntime "2485.0"^^<http://dbkwik.webdatacommons.org/datatype/second> ;
+    rdfs:comment """Cloak & Dagger (Original Television Series Soundtrack) contains songs featured in the first season of Cloak & Dagger. It was released digitally on June 8, 2018.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Contest_of_Champions> rdfs:label "Contest of Champions"^^rdf:langString ;
+    ns1:combatants <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ares> ;
+    rdfs:comment """The Contest of Champions is a tournament organized by the Grandmaster to entertain the citizens of Sakaar.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Crimson_Dynamo_Armor> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/armor> ;
+    rdfs:label "Crimson Dynamo Armor"^^rdf:langString ;
+    rdfs:comment """Two different versions of the Crimson Dynamo Armor have appeared in video games inspired by the Marvel Cinematic Universe:
+							
+The Crimson Dynamo Armor was an armored suit created by A.I.M.. It was worn by General Valentin Shatalov.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Danielle_Daly> rdfs:label "Danielle Daly"^^rdf:langString ;
+    ns1:oneShot <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_One-Shot:_All_Hail_the_King> ;
+    rdfs:comment """Danielle Daly was the post production supervisor of Iron Man 3, All Hail the King, Captain America: The Winter Soldier, Avengers: Age of Ultron and Captain America: Civil War.
+She was also an addictional production coordinator in Iron Man 2, a senior post-production coordinator in Captain America: The First Avenger and a supervising post-production coordinator in The Avengers.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Daredevil:_Defender_of_Hell%27s_Kitchen:_Season_One> rdfs:label "Daredevil: Defender of Hell's Kitchen: Season One"^^rdf:langString ;
+    ns1:isbn <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Special:BookSources/0785194010> ;
+    rdfs:comment """Daredevil: Defender of Hell's Kitchen: Season One is the official artbook and behind-the-scenes story of the first season of the Netflix television series Daredevil.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/David_Hasselhoff> rdfs:label "David Hasselhoff"^^rdf:langString ;
+    ns1:contribution <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Guardians_Inferno> ;
+    rdfs:comment """David Michael Hasselhoff is an American actor, singer, producer, and businessman. He recorded the song "Guardians Inferno" (written by James Gunn) with The Sneepers in Guardians of the Galaxy Vol. 2.
+He also portrayed an alternate form of Ego in Guardians of the Galaxy Vol. 2 as well as himself in the credits.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Diviner> rdfs:label "Diviner"^^rdf:langString ;
+    ns1:otherNames "The Obelisk"^^rdf:langString ;
+    rdfs:comment """The Diviners are items constructed by the Kree thousands of years ago as a containment device for the Terrigen Crystals. A number of Diviners were left on Earth several millennia ago, buried until World War II, when at least one of them was procured by HYDRA who dubbed it the Obelisk. In 1945 the Obelisk was confiscated by the Strategic Scientific Reserve where it became the first 0-8-4. The Diviners regained prominence in 2014, when the "Obelisk" became central in a conflict between HYDRA and S.H.I.E.L.D. (the Strategic Scientific Reserve's modern successor). Eventually that Diviner was activated, leading to the emergence of two new Inhumans, Raina and Skye.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Executioner> rdfs:label "Executioner"^^rdf:langString ;
+    ns1:succeeded <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Volstagg> ;
+    rdfs:comment """Skurge was an Asgardian warrior who was tasked with becoming the guardian of the Bifrost Bridge by Loki following the banishment of Heimdall. When Loki was revealed to have been ruling Asgard in secret, Skurge was demoted and made the janitor, however he was later recruited by Hela to become her personal Executioner. However, Skurge's disillusion and inner conflict of his new position upon seeing her brutality against her own people and the threat she posed to the Nine Realms ultimately made him turn against the Goddess of Death. During his final moments, Skurge fought Hela's entire army of the Berserkers and then allowed all of his people to survive the Destruction of Asgard at the cost of his own life. These actions also finally made Skurge a hero of Asgard.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/First_Dark_Elf_Conflict> rdfs:label "First Dark Elf Conflict"^^rdf:langString ;
+    ns1:imagebg "Dark Elves at War.jpg"^^rdf:langString ;
+    rdfs:comment """The Dark Elf conflict is a conflict that lasted for thousands of years. Dating back to 2988 B.C., the crisis was instigated when Malekith, the insane, genocidal leader of the Dark Elves, attempted to use the Infinity Stone known as the Aether, which controls reality, to eradicate the Nine Realms. The Dark Elves were defeated and nearly exterminated by an opposing army of Asgardians led by the then-king Bor, and Malekith and several others of his species went into hibernation and until the next Convergence.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Gaithersburg> rdfs:label "Gaithersburg"^^rdf:langString ;
+    ns1:seal <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/File:Seal_of_Gaithersburg.png> ;
+    rdfs:comment """Gaithersburg, officially the City of Gaithersburg, is a city located in Maryland.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Geneva> rdfs:label "Geneva"^^rdf:langString ;
+    ns1:inhabitants <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Theo_Broussard> ;
+    rdfs:comment """Geneva is a city in Switzerland.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Gladiator_(Sakaaran_Rebellion)> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/delete> ;
+    rdfs:label "Gladiator (Sakaaran Rebellion)"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Google+_Profile/Pym_Technologies> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/google+> ;
+    rdfs:label "Google+ Profile/Pym Technologies"^^rdf:langString ;
+    rdfs:comment """The Google+ profile of Pym Technologies was part of the 2015 Ant-Man promotional campaign. It supported the WIRED Insider: Darren Cross interview. This is a page which includes all the Google+ posts of Pym Technologies.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Guidebook_to_the_Marvel_Cinematic_Universe> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/guidebook> ;
+    rdfs:label "Guidebook to the Marvel Cinematic Universe"^^rdf:langString ;
+    rdfs:comment """The following is a list of Marvel-licensed comics set in the Marvel Cinematic Universe.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Guidebook_to_the_Marvel_Cinematic_Universe_-_Ant-Man> rdfs:label "Guidebook to the Marvel Cinematic Universe - Ant-Man"^^rdf:langString ;
+    ns1:cover <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Mike_del_Mundo> ;
+    rdfs:comment """Guidebook to the Marvel Cinematic Universe - Ant-Man is the tenth issue of a series of guidebooks that explores the Marvel Cinematic Universe. It covers Ant-Man, Ant-Man Prelude and Ant-Man - Scott Lang: Small Time.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/HYDRA_Mini_Tank> rdfs:label "HYDRA Mini Tank"^^rdf:langString ;
+    ns1:weapons <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/HYDRA_Cannon> ;
+    rdfs:comment """The HYDRA Mini Tank was an armored vehicle used by HYDRA during the Spanish Civil War and World War II.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Heart-Shaped_Herb> rdfs:label "Heart-Shaped Herb"^^rdf:langString ;
+    ns1:imagecaption "Children prepare the Heart-Shaped Herb."^^rdf:langString ;
+    rdfs:comment """The Heart-Shaped Herb was a plant native to Wakanda that was traditionally consumed by the new King and the heir to the mantle of the Black Panther in order to obtain enhanced physical abilities, as well as entering the Ancestral Plane through a ritual process.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Heimdall> rdfs:label "Heimdall"^^rdf:langString ;
+    ns1:years <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2017> ;
+    rdfs:comment """Heimdall was the all-seeing and all-hearing Asgardian and former guard of the Bifrost Bridge. He could see and hear nearly everything that happens in the Nine Realms. Despite vowing to obey the orders of Odin, Heimdall was prepared to commit treason if it meant protecting the Realms, as he allowed the Warriors Three to return Thor from Midgard to defeat Loki. 
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/IMAX_Corporation> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/youtube> ;
+    rdfs:label "IMAX Corporation"^^rdf:langString ;
+    rdfs:comment """IMAX Corporation is a theatre company based in Ontario, California that designs and manufactures IMAX cameras and projection systems. A number of Marvel Studios projects were filmed using IMAX cameras, including The Avengers and Avengers: Infinity War, as well as Marvel Television's Inhumans.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Instagram_Profile/Danny_Rand> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/instagram> ;
+    rdfs:label "Instagram Profile/Danny Rand"^^rdf:langString ;
+    rdfs:comment """The Instagram profile of Danny Rand was part of a marketing campaign for Season 1 of Iron Fist. This profile could be accessed via an Instagram link on the Chikara Dojo website.
+CharactersDanny RandJeri Hogarth (mentioned)
+ItemsM&M'siPod ClassicKatana
+OrganizationsStark Industries (mentioned)
+
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Inventory_of_Rare_and_Endangered_Tracheophyta_of_Amazônia> rdfs:label "Inventory of Rare and Endangered Tracheophyta of Amazônia"^^rdf:langString ;
+    ns1:name "Inventory of Rare and Endangered Tracheophyta of Amazônia"^^rdf:langString ;
+    rdfs:comment """Inventory of Rare and Endangered Tracheophyta of Amazonia is a botanical manual providing information on rare, threatened, and endangered Amazonia native plants. The book was written by Amanda Kirchhoff and printed by Rathburn University.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Fist_(TV_series)/Trivia> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/expand> ;
+    rdfs:label "Iron Fist (TV series)/Trivia"^^rdf:langString ;
+    rdfs:comment """A list of trivia related to Iron Fist.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man:_Limited_Edition> rdfs:label "Iron Man: Limited Edition"^^rdf:langString ;
+    ns1:release <http://www.newsarama.com/5512-iron-man-2-augmented-reality-app-coming-to-lg-phones.html> ;
+    rdfs:comment """Iron Man: Limited Edition is a tie-in for Iron Man 2 sponsored by LG, as an element of a partnership between Marvel and LG to combine augmented reality and exclusive content for the film.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_2:_Phil_Coulson:_Agent_of_S.H.I.E.L.D.> rdfs:label "Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D."^^rdf:langString ;
+    ns1:artista <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Felix_Ruiz> ;
+    rdfs:comment """Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D. is a comic book published by Marvel Digital Comics Unlimited.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_2_(video_game)> rdfs:label "Iron Man 2 (video game)"^^rdf:langString ;
+    ns1:developers "', '"^^rdf:langString ;
+    rdfs:comment """Iron Man 2 is a 2010 video game loosely based on the film of the same name. It was released on May 4, 2010, days after the film's international release and days before the film's domestic release. The game was published by Sega and developed by Secret Level (Xbox 360 & PlayStation 3), High Voltage Software (Wii & PlayStation Portable) and Gameloft (Wireless).
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Jasper_Sitwell> rdfs:label "Jasper Sitwell"^^rdf:langString ;
+    ns1:height 5 ;
+    rdfs:comment "Jasper Sitwell was a Level 7 S.H.I.E.L.D. operative and member of HYDRA. Sitwell was indoctrinated into the ranks of HYDRA from being trained at the HYDRA Preparatory Academy, for whom he took on a role as a double agent within S.H.I.E.L.D. Several of his missions involved extraterrestrials and demigods. During the years of service working undercover, Sitwell became a good friend with his fellow agent Phil Coulson. Overtly, he conducted all his duties with efficiency, while covertly he aided a deep-rooted conspiracy to reshape the world in HYDRA's image. Eventually, Sitwell's true allegiance toward HYDRA had been uncovered by the S.H.I.E.L.D."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Joe_Caramagna> rdfs:label "Joe Caramagna"^^rdf:langString ;
+    ns1:penciled <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_Homecoming> ;
+    rdfs:comment """Joe Caramagna wrote the comics Nick Fury: Spies Like Us and Iron Man 2: Security Breach.
+He was also an artist for Iron Man: Security Measures, Iron Man: I Am Iron Man!, Iron Man 2: Agents of S.H.I.E.L.D., The Avengers Prelude: Fury's Big Week, Iron Man: The Coming of the Melter, Thor: The Dark World Prelude and Captain America: Homecoming.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Joint_Counter_Terrorist_Centre_Building> rdfs:label "Joint Counter Terrorist Centre Building"^^rdf:langString ;
+    ns1:formernotable <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Avengers> ;
+    rdfs:comment """The Joint Counter Terrorist Centre Building is the headquarters of the Joint Counter Terrorist Centre located in Berlin, Germany.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Landman_and_Zack> rdfs:label "Landman and Zack"^^rdf:langString ;
+    ns1:formerLeader <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Parish_Landman> ;
+    rdfs:comment """Landman and Zack LLP is a law firm in New York City.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/List_of_Powers_and_Abilities> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/rewrite> ;
+    rdfs:label "List of Powers and Abilities"^^rdf:langString ;
+    rdfs:comment """The following is a list of the Powers and Abilities displayed by different characters in the Marvel Cinematic Universe.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Maria_Stark> rdfs:label "Maria Stark"^^rdf:langString ;
+    ns1:team <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Stark_Industries> ;
+    rdfs:comment """Maria Collins Carbonell Stark was Tony Stark's mother and Howard Stark's wife. She was assasinated along with her husband by the Winter Soldier under HYDRA orders, making it appear as an accidental car crash.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_Cinematic_Universe_Wiki> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/section> ;
+    rdfs:label "Marvel Cinematic Universe Wiki"^^rdf:langString ;
+    ns1:body <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/File:Marvel_Studios%27_Captain_Marvel_-_Official_Trailer> ;
+    ns1:heading "COUNTDOWN"^^rdf:langString ;
+    rdfs:comment "es:fr:ru:pl:zh:"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_One-Shot:_A_Funny_Thing_Happened_on_the_Way_to_Thor%27s_Hammer> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/one-shot> ;
+    rdfs:label "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer"^^rdf:langString ;
+    rdfs:comment """A Funny Thing Happened on the Way to Thor's Hammer is the second in a series of Marvel One-Shots, released on the Captain America: The First Avenger Blu-ray on October 25, 2011. It takes place during the events of The Incredible Hulk, and in between the events of Iron Man 2 and Thor.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Most_Wanted/Gallery> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/cancelled> ;
+    rdfs:label "Most Wanted/Gallery"^^rdf:langString ;
+    rdfs:comment """The following is an index of galleries of screenshots and promotional material from the television show Most Wanted.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/New_Warriors_(TV_series)/Trivia> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/imageless> ;
+    rdfs:label "New Warriors (TV series)/Trivia"^^rdf:langString ;
+    rdfs:comment """Characters from the comics adapted for the series are Doreen Green / Squirrel Girl, Craig Hollis / Mister Immortal, Dwayne Taylor / Night Thrasher, Microbe, and Deborah Fields / Debrii. It also marks the debut of the titular New Warriors group.The Marvel Cinematic Universe's version of the New Warriors included team members and peculiar aspects of the Great Lake Avengers, a mid-western iteration of the Avengers.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Peggy_Carter> rdfs:label "Peggy Carter"^^rdf:langString ;
+    ns1:gender <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Dottie_Underwood> ;
+    rdfs:comment """Margaret Elizabeth "Peggy" Carter was one of the most prominent agents of the Strategic Scientific Reserve (SSR) during and after World War II and one of the founders of S.H.I.E.L.D.. Originally a code-breaker working at Bletchley Park, she joined the Special Operations Executive following her brother's death. Carter later joined the Strategic Scientific Reserve, an Allied deep science agency formed to fight HYDRA, the Nazi weapons division. On the mission in Germany she saved Professor Abraham Erskine from Johann Schmidt. The success of her mission enabled the SSR to start Project Rebirth and develop their Super Soldier Serum to make the army of Super Soldiers. During the project she had befriended Steve Rogers, one of the project's candidates.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Phase_One> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/phase_one> ;
+    rdfs:label "Phase One"^^rdf:langString ;
+    rdfs:comment """Phase One is the first part of the Marvel Cinematic Universe. It has also been called Avengers Assembled. From 2008 to 2012, the Phase One films grossed $3.8 billion ($3,811,026,406) worldwide. The next group of films is called Phase Two.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Phase_Three> rdfs:label "Phase Three"^^rdf:langString ;
+    ns1:followedBy <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Phase_Four> ;
+    rdfs:comment """Phase Three is the third part of the Marvel Cinematic Universe after Phase Two and is to be followed by Phase Four.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Playground_(Framework)> rdfs:label "Playground (Framework)"^^rdf:langString ;
+    ns1:formerinhabitants <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Patriot> ;
+    rdfs:comment """The Playground is a virtual recreation of the real-world S.H.I.E.L.D. headquarters of the same name that serves as the headquarters for the Resistance inside the Framework.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Richard_Day> rdfs:label "Richard Day"^^rdf:langString ;
+    ns1:allies "Potential Juror Number 17"^^rdf:langString ;
+    rdfs:comment """Richard Day is a New York City citizen and potential juror at "The People vs. Frank Castle".
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Sneepers> rdfs:label "Sneepers"^^rdf:langString ;
+    ns1:planet "Sneep"^^rdf:langString ;
+    rdfs:comment """The Sneepers are a race of olive-skinned aliens that populates the Galaxy.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Stephany_Folsom> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/twitter> ;
+    rdfs:label "Stephany Folsom"^^rdf:langString ;
+    rdfs:comment """Stephany Folsom was a screenwriter on Thor: Ragnarok.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/The_Well> rdfs:label "The Well"^^rdf:langString ;
+    ns1:eason 1 ;
+    rdfs:comment """The Well is the eighth episode of the first season of the television series Agents of S.H.I.E.L.D.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Yorkes_Residence> rdfs:label "Yorkes Residence"^^rdf:langString ;
+    ns1:appearances <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Runaways_(TV_series)> ;
+    rdfs:comment """The Yorkes Residence was the place of living of Dale, Stacey and Gert Yorkes as well as Molly Hernandez.
+
+"""@en .
+
+<http://marvelcinematicuniverse.wikia.com/wiki/Special:FilePath/$.jpeg> a ns3:Image ;
+    dc:rights <http://marvelcinematicuniverse.wikia.com/wiki/File:$.jpeg> ;
+    foaf:thumbnail <http://marvelcinematicuniverse.wikia.com/wiki/Special:FilePath/$.jpeg?width=300> .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/actor> a owl:Class ;
+    rdfs:label "Actor"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/armor> a owl:Class ;
+    rdfs:label "Armor"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/book> a owl:Class ;
+    rdfs:label "Book"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/box> a owl:Class ;
+    rdfs:label "Box"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/cancelled> a owl:Class ;
+    rdfs:label "Cancelled"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/character> a owl:Class ;
+    rdfs:label "Character"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/clear> a owl:Class ;
+    rdfs:label "Clear"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/col-end> a owl:Class ;
+    rdfs:label "Col-end"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/comic> a owl:Class ;
+    rdfs:label "Comic"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/conflict> a owl:Class ;
+    rdfs:label "Conflict"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/delete> a owl:Class ;
+    rdfs:label "Delete"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/disambig> a owl:Class ;
+    rdfs:label "Disambig"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/documentary> a owl:Class ;
+    rdfs:label "Documentary"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/dvd> a owl:Class ;
+    rdfs:label "DVD"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/event> a owl:Class ;
+    rdfs:label "Event"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/expand> a owl:Class ;
+    rdfs:label "Expand"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/filmmaker> a owl:Class ;
+    rdfs:label "Filmmaker"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/game> a owl:Class ;
+    rdfs:label "Game"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/google+> a owl:Class ;
+    rdfs:label "Google+"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/guidebook> a owl:Class ;
+    rdfs:label "Guidebook"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/imageless> a owl:Class ;
+    rdfs:label "Imageless"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/imdb> a owl:Class ;
+    rdfs:label "IMDb"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/instagram> a owl:Class ;
+    rdfs:label "Instagram"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/item> a owl:Class ;
+    rdfs:label "Item"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/linkedin> a owl:Class ;
+    rdfs:label "Linkedin"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/location> a owl:Class ;
+    rdfs:label "Location"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/magazine> a owl:Class ;
+    rdfs:label "Magazine"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/marvel> a owl:Class ;
+    rdfs:label "Marvel"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/movie> a owl:Class ;
+    rdfs:label "Movie"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/music> a owl:Class ;
+    rdfs:label "Music"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/one-shot> a owl:Class ;
+    rdfs:label "One-Shot"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/organization> a owl:Class ;
+    rdfs:label "Organization"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/otheruses> a owl:Class ;
+    rdfs:label "Otheruses"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/phase> a owl:Class ;
+    rdfs:label "Phase"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/phase_one> a owl:Class ;
+    rdfs:label "Phase One"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/project> a owl:Class ;
+    rdfs:label "Project"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/quote> a owl:Class ;
+    rdfs:label "Quote"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/race> a owl:Class ;
+    rdfs:label "Race"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/reflist> a owl:Class ;
+    rdfs:label "Reflist"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/rewrite> a owl:Class ;
+    rdfs:label "Rewrite"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/season> a owl:Class ;
+    rdfs:label "Season"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/section> a owl:Class ;
+    rdfs:label "Section"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/song> a owl:Class ;
+    rdfs:label "Song"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/soundtrack> a owl:Class ;
+    rdfs:label "Soundtrack"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/stub> a owl:Class ;
+    rdfs:label "Stub"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/timeline> a owl:Class ;
+    rdfs:label "Timeline"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/tv> a owl:Class ;
+    rdfs:label "TV"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/twitter> a owl:Class ;
+    rdfs:label "Twitter"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/vehicle> a owl:Class ;
+    rdfs:label "Vehicle"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/war> a owl:Class ;
+    rdfs:label "War"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/web_series> a owl:Class ;
+    rdfs:label "Web Series"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/wp> a owl:Class ;
+    rdfs:label "WP"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/wps> a owl:Class ;
+    rdfs:label "WPS"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/youtube> a owl:Class ;
+    rdfs:label "YouTube"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/0-8-4_(Code)> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/quote> ;
+    rdfs:label "0-8-4 (Code)"^^rdf:langString ;
+    rdfs:comment """An 0-8-4 is an object of unknown origin detected by S.H.I.E.L.D.. Depending on the situation, either a small or large group of agents are sent to determine what the 0-8-4 is, and how it could be used.
+The code "0-8-4" derives from the identification number used on the case containing the first object of unknown origin encountered by the Strategic Scientific Reserve, the precursor of S.H.I.E.L.D. The object was a Diviner obtained by Peggy Carter during the raid of the HYDRA Research Facility in Austria in 1945. It was most likely the eighty-fourth item catalogued during the raid.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/1980s> rdfs:label "1980s"^^rdf:langString ;
+    rdfs:comment """This is a timeline of events that occurred during the 1980s.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2012> rdfs:label "2012"^^rdf:langString ;
+    rdfs:comment """This is a timeline of events that occurred in 2012.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2014> rdfs:label "2014"^^rdf:langString ;
+    rdfs:comment """This is a timeline of events that occurred in 2014.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2016> rdfs:label "2016"^^rdf:langString ;
+    rdfs:comment """This is a timeline of events that occurred in 2016.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A%27askavariia> rdfs:label "A'askavariia"^^rdf:langString ;
+    ns1:population <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A%27askavariians> ;
+    rdfs:comment """A'askavariia is the home planet of the A'askavariians.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A%27askavariians> rdfs:label "A'askavariians"^^rdf:langString ;
+    ns1:homeplanet <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A%27askavariia> ;
+    rdfs:comment """A'askvariians are an alien race encountered by Peter Quill.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/AKA_Freak_Accident> rdfs:label "AKA Freak Accident"^^rdf:langString ;
+    rdfs:comment """AKA Freak Accident is the second episode of the second season of the television series Jessica Jones, and the fifteenth episode overall.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aaron_Hendry> rdfs:label "Aaron Hendry"^^rdf:langString ;
+    rdfs:comment """Aaron Hendry portrayed Loyolis in the Inhumans episodes Behold…The Inhumans!, Those Who Would Destroy Us, The Gentleman's Name is Gorgon, Havoc in the Hidden Land and ...And Finally: Black Bolt.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Abomination> rdfs:label "Abomination"^^rdf:langString ;
+    ns1:affiliation <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Strategic_Operations_Command_Center> ;
+    ns1:oneshot <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_One-Shot:_The_Consultant> ;
+    ns1:webSeries <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/WHiH_Newsfront_(web_series)> ;
+    rdfs:comment """Emil Blonsky is a former special-ops commando with the British Royal Marines on loan to General Thaddeus Ross in his efforts to capture Bruce Banner better known as Hulk. Blonsky was injected with a small dose of the mothballed original Super Soldier Serum and later was injected with Bruce Banner's blood causing him to transform into the Hulk-sized Abomination. He then proceeded to go on a rampage in Harlem until he was defeated by Hulk and captured by the United States Armed Forces.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adam_Warlock> rdfs:label "Adam Warlock"^^rdf:langString ;
+    rdfs:comment """Adam is an android created by Ayesha in order to help her destroy the Guardians of the Galaxy.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Adolf_Hitler> rdfs:label "Adolf Hitler"^^rdf:langString ;
+    rdfs:comment """Adolf Hitler was the Führer und Reichskanzler of Nazi Germany, the Third Reich, before and during World War II. He started the war with the intention to create the German Empire that would dominate Europe. He was responsible for a genocide in which about six million European Jews and other people were murdered. His reign of terror also gave rise to another great war criminal, Johann Schmidt, the infamous Red Skull.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Afterlife> rdfs:label "Afterlife"^^rdf:langString ;
+    rdfs:comment """Afterlife (來世 Lai Shi, translated as "Next Life") was an Inhuman settlement.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agents_of_S.H.I.E.L.D._(Season_Two)/Home_Video> rdfs:label "Agents of S.H.I.E.L.D. (Season Two)/Home Video"^^rdf:langString ;
+    rdfs:comment """Agents of S.H.I.E.L.D. - The Complete Second Season is the DVD and Blu-ray release for Agents of S.H.I.E.L.D. Season Two.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Akela_Amador> rdfs:label "Akela Amador"^^rdf:langString ;
+    ns1:clearance <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Clearance_Level> ;
+    rdfs:comment """Akela Amador is a former S.H.I.E.L.D. agent who was presumed dead, and reappeared on the grid committing diamond heists. A former protégé of Agent Phil Coulson, Amador was an unwilling servant of HYDRA for several years.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ambush_at_the_Staten_Island_Ferry> rdfs:label "Ambush at the Staten Island Ferry"^^rdf:langString ;
+    rdfs:comment """The Ambush at the Staten Island Ferry was a conflict between Spider-Man, Vulture, Mac Gargan, and FBI that began when the web-slinger attempted to hijack an illegal arms deal between Gargan and Adrian Toomes' Crew.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/American_Broadcasting_Company> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/linkedin> ;
+    rdfs:label "American Broadcasting Company"^^rdf:langString ;
+    rdfs:comment """The American Broadcasting Company (ABC) is an American commercial broadcast television network viewed in the United States and Canada. It is a sister channel of Freeform.
+It has aired the first, second, third, fourth and fifth seasons of Agents of S.H.I.E.L.D., the first and second seasons of the series Agent Carter and the series Inhumans, which is co-produced with the IMAX Corporation.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ant-Man_(film)> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/movie> ;
+    rdfs:label "Ant-Man (film)"^^rdf:langString ;
+    ns1:boxoffice "5.194E8"^^<http://dbkwik.webdatacommons.org/datatype/usDollar> ;
+    rdfs:comment """Ant-Man is a 2015 superhero film, based on the Marvel Comics superhero of the same name. It is the twelfth installment in the Marvel Cinematic Universe and the sixth and final installment of Phase Two. The film was released on July 14, 2015 internationally and on July 17, 2015 in the United States.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Ares> rdfs:label "Ares"^^rdf:langString ;
+    rdfs:comment """Ares was a powerful fighter and was one of the warriors who gained the title of Champion of the Contest of Champions of Sakaar.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Asgardians> rdfs:label "Asgardians"^^rdf:langString ;
+    rdfs:comment """The Asgardians are the inhabitants of Asgard. They are a race of extraterrestrial beings similar to the human beings possessing a highly advanced form of technology resembling magic and sorcery, which their entire civilization is built on.
+The Asgardians are a brave and a powerful warrior race whose passion for adventure is their religion, and their reputation as one of the mightiest races in the universe has earned them the respect and fear from other races.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Attack_on_the_IFID_Headquarters> rdfs:label "Attack on the IFID Headquarters"^^rdf:langString ;
+    rdfs:comment """The Attack on the IFID Headquarters, also known as the Lagos Catastrophe, was an open confrontation between the Avengers and former HYDRA agent Brock Rumlow in Lagos, Nigeria. 
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Avengers> rdfs:label "Avengers"^^rdf:langString ;
+    ns1:vehicles <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Quinjet> ;
+    rdfs:comment """The Avengers, also known as the Heroes of New York, are a team of extraordinary individuals, either with superpowers or other special characteristics. Its purpose is to protect world stability from inner or extraterrestrial threats, and to work with the peaceful interests of the whole world rather than a specific country or organization. The Avengers were first assembled by S.H.I.E.L.D. when Loki invaded Earth with his Chitauri army to conquer the planet. The team defeated him and went to their separate ways.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Axel_Alonso> rdfs:label "Axel Alonso"^^rdf:langString ;
+    rdfs:comment """Axel Alonso is the editor-in-chief of Marvel Comics.
+He was interviewed for the documentaries Marvel Studios: Assembling a Universe, Marvel 75 Years: From Pulp to Pop and Captain America: 75 Heroic Years.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bagram> rdfs:label "Bagram"^^rdf:langString ;
+    rdfs:comment """Bagram is a small town in Afghanistan and home of Bagram Air Base.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Bear_McCreary> rdfs:label "Bear McCreary"^^rdf:langString ;
+    rdfs:comment """Bear McCreary scored Agents of S.H.I.E.L.D. and Agents of S.H.I.E.L.D.: Slingshot.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Betty_Ross> rdfs:label "Betty Ross"^^rdf:langString ;
+    rdfs:comment """Doctor Elizabeth "Betty" Ross was a scientist and professor at Culver University. She dated Bruce Banner and helped him after a horrible accident involving Gamma Radiation turned him into the Hulk.
+When Thanos completed the Infinity Gauntlet and his goal of killing half the universe came into effect, Ross was among those who were killed.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Billy_Gierhart> rdfs:label "Billy Gierhart"^^rdf:langString ;
+    rdfs:comment """Billy Gierhart directed the Agents of S.H.I.E.L.D. episodes Repairs, Nothing Personal, Ye Who Enter Here, Aftershocks, S.O.S. Part Two, Absolution, The Ghost, The Good Samaritan, BOOM, All the Madame's Men and World's End, the Jessica Jones episode AKA Take a Bloody Number and the Inhumans episode ...And Finally: Black Bolt.
+He also directed the unaired pilot of Most Wanted.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Black_Widow_(film)> rdfs:label "Black Widow (film)"^^rdf:langString ;
+    rdfs:comment """Black Widow is an upcoming superhero film, based on the Marvel Comics superheroine of the same name.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_Civil_War_Prelude> rdfs:label "Captain America: Civil War Prelude"^^rdf:langString ;
+    rdfs:comment """Captain America: Civil War Prelude is a 4-issue comic mini-series set in the Marvel Cinematic Universe. It is set before the events of Captain America: Civil War.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_Homecoming> rdfs:label "Captain America: Homecoming"^^rdf:langString ;
+    rdfs:comment """Captain America: Homecoming is a comic set between the events of The Avengers and Captain America: The Winter Soldier written by Fred Van Lente.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Cate_Shortland> rdfs:label "Cate Shortland"^^rdf:langString ;
+    rdfs:comment """Cate Shortland will direct Black Widow.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Inhumans_(TV_series)_Episodes> rdfs:label "Inhumans (TV series) Episodes"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Items> rdfs:label "Items"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Category:Policy> rdfs:label "Policy"^^rdf:langString .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chase_of_Quake> rdfs:label "Chase of Quake"^^rdf:langString ;
+    rdfs:comment """The Chase of Quake was an organized search issued by the newly legitimized peacekeeping organization S.H.I.E.L.D. for former Inhuman agent Daisy Johnson. 
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chester_Phillips> rdfs:label "Chester Phillips"^^rdf:langString ;
+    rdfs:comment """Colonel Chester Phillips was an officer of the United States Army, the first and only director of the Strategic Scientific Reserve, Steve Rogers' commanding officer, and one of the founding members of S.H.I.E.L.D. During World War II, Philips was a key factor in the creation of the world's first Super Soldier and the defeat of HYDRA.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chicago> rdfs:label "Chicago"^^rdf:langString ;
+    rdfs:comment """Chicago is the largest city of the state of Illinois.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chris_Dingess> rdfs:label "Chris Dingess"^^rdf:langString ;
+    rdfs:comment """Chris Dingess is an executive producer on Agent Carter.
+He wrote the Agent Carter episode Snafu, the teleplay for A Little Song and Dance, and the story for Hollywood Ending. He also co-wrote the episode Absolution of Agents of S.H.I.E.L.D. with Drew Z. Greenberg.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chris_Sotomayor> rdfs:label "Chris Sotomayor"^^rdf:langString ;
+    rdfs:comment """Chris Sotomayor was an artist for Iron Man: Fast Friends, The Incredible Hulk: The Fury Files, Nick Fury: Spies Like Us, Iron Man: I Am Iron Man!, Iron Man 2: Fist of Iron, Iron Man 2: Security Breach, Iron Man Royal Purple Custom Comic, Iron Man 2 Adaptation, The Avengers Prelude: Fury's Big Week, The Avengers: The Avengers Initiative, The Avengers Prelude: Black Widow Strikes, Iron Man 3 Prelude, Iron Man: The Coming of the Melter, Thor: The Dark World Prelude, Captain America: The First Avenger Adaptation, Captain America: Homecoming and Agents of S.H.I.E.L.D.: The Chase.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Christopher_Lennertz> rdfs:label "Christopher Lennertz"^^rdf:langString ;
+    rdfs:comment """Christopher Joseph Lennertz scored Marvel One-Shot: Item 47, Marvel One-Shot: Agent Carter and Agent Carter.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Clearance_Level> rdfs:label "Clearance Level"^^rdf:langString ;
+    rdfs:comment """Clearance Levels were used by S.H.I.E.L.D. to keep order in their system and protect information that is protected by S.H.I.E.L.D.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/D.C._Pierson> rdfs:label "D.C. Pierson"^^rdf:langString ;
+    rdfs:comment """D.C. Pierson portrayed Aaron in Captain America: The Winter Soldier.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Dan_Buckley> rdfs:label "Dan Buckley"^^rdf:langString ;
+    rdfs:comment """Dan Buckley is the President of Marvel Entertainment. He published Agents of S.H.I.E.L.D.: Season One Declassified.
+He is an executive producer for Daredevil, Jessica Jones, Luke Cage and The Defenders.
+He was also interviewed for the documentaries Marvel Studios: Assembling a Universe, Marvel 75 Years: From Pulp to Pop and Captain America: 75 Heroic Years.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Daredevil> rdfs:label "Daredevil"^^rdf:langString ;
+    rdfs:comment """Matthew Michael "Matt" Murdock is a man who was blinded as a young boy by a radioactive substance that fell from a crashed vehicle, and even though he lost his sight, his other four senses were heightened to a superhuman level. After his father was murdered by mobsters, Murdock dedicated his life to fight injustice in New York City as a lawyer by day with his law firm Nelson and Murdock, and by night as a vigilante known as Daredevil. His actions as a crime fighter put Murdock into conflict with a crime lord named Wilson Fisk. Murdock used his skills to expose Fisk's criminal activities and have him taken to prison.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Dottie_Underwood> rdfs:label "Dottie Underwood"^^rdf:langString ;
+    rdfs:comment """The woman known as Dorothy "Dottie" Underwood is a Soviet assassin trained in the Red Room Academy. As an operative of a Soviet espionage agency Leviathan, she participated in Johann Fennhoff's revenge plot against the American industrialist Howard Stark. She subsequently adopted the persona of a small-town girl from Iowa and infiltrated the Griffith Hotel in New York City. While assisting Fennhoff, she came in conflict with Peggy Carter, an SSR agent. During Fennhoff's attempt to kill the entire population of New York City on V-E Day, she was wounded but eventually managed to escape her pursuers. After the failure of her mission, she chose to stay in the USA and became a mercenary. 
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Earth> rdfs:label "Earth"^^rdf:langString ;
+    rdfs:comment """Earth is the third planet of the Solar system, home to the humans, Inhumans, and a number of Asgardian immigrants. It is also one of the Nine Realms, a group of planetary bodies aligned by the cosmic nimbus Yggdrasil, and is also the central Realm that all the others revolve around. The various races of the Nine Realms refer to Earth as "Midgard", while those living beyond the realms call it "Terra."
+Earth orbits around one single star, the Sun, and has only one permanent natural satellite, called the Moon.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Europe> rdfs:label "Europe"^^rdf:langString ;
+    rdfs:comment """Europe is the second smallest continent out of seven. It is known for its varied nature.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Felix_Ruiz> rdfs:label "Felix Ruiz"^^rdf:langString ;
+    rdfs:comment """Felix Ruiz was an artist for Iron Man 2: Agents of S.H.I.E.L.D..
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Fred_Tatasciore> rdfs:label "Fred Tatasciore"^^rdf:langString ;
+    rdfs:comment """Fred Tatasciore voiced Hulk and Abomination in The Incredible Hulk.
+He also voiced Obadiah Stane/Iron Monger, A.I.M. President, Afghan Soldier and Maggia Soldier in Iron Man and Hulk in The Incredible Hulk.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/George_Kitson> rdfs:label "George Kitson"^^rdf:langString ;
+    rdfs:comment """George Kitson wrote the comic Agents of S.H.I.E.L.D.: The Chase and co-wrote the Agents of S.H.I.E.L.D. episode Paradise Lost and the web series Agents of S.H.I.E.L.D.: Double Agent with Sharla Oliver. He also wrote the Agents of S.H.I.E.L.D. episodes Best Laid Plans and All Roads Lead... and the Agents of S.H.I.E.L.D.: Slingshot episode Progress.
+He also works on Agents of S.H.I.E.L.D. as a personal assistant to Jeffrey Bell.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/George_Talbot> rdfs:label "George Talbot"^^rdf:langString ;
+    rdfs:comment """George Talbot is the son of Glenn and Carla Talbot.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Gilmore_Hodge> rdfs:label "Gilmore Hodge"^^rdf:langString ;
+    rdfs:comment """Private Gilmore Hodge was a member of the United States Army during World War II, assigned to the Strategic Scientific Reserve.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Glenn_Industries> rdfs:label "Glenn Industries"^^rdf:langString ;
+    rdfs:comment """Glenn Industries is an industrial corporation operating in New York City.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Guardians_Inferno> rdfs:label "Guardians Inferno"^^rdf:langString ;
+    rdfs:comment """"Guardians Inferno" is a song composed by Tyler Bates and James Gunn and recorded by The Sneepers and David Hasselhoff for Guardians of the Galaxy Vol. 2. It was featured on the album Guardians of the Galaxy Vol. 2: Awesome Mix Vol. 2. The video of the song was directed by David Yarovesky.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/HYDRA_Cannon> rdfs:label "HYDRA Cannon"^^rdf:langString ;
+    rdfs:comment """The HYDRA Cannon was one of the first advanced weapons that were designed by Arnim Zola when he managed to harness the power of the Tesseract by using a special battery that stores it.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Hand> rdfs:label "Hand"^^rdf:langString ;
+    rdfs:comment "The Yami no te (闇の手), referred to as the Hand, was an ancient and powerful ninja clan with the ultimate goal to gain immortality. The Hand originated in K'un-Lun, when the five founders were banished from the city and have since lived on in the shadows for centuries, promoting their goal through wars and influence on powerful people. When the Hand came to New York City, the branch leader Nobu Yoshioka used Wilson Fisk in order to bring to the city Black Sky. However, his plan was interrupted by the vigilante Daredevil, and eventually, they had to stop their operation after Yoshioka's death. By the power of resurrection the Hand had obtained, Yoshioka returned to lead the Hand in New York City in order to find a new Black Sky for their war against the Chaste."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Harold_Meachum> rdfs:label "Harold Meachum"^^rdf:langString ;
+    rdfs:comment "Harold Meachum was a ruthless businessman who built up Rand Enterprises with his dear friend Wendell Rand. However Meachum's greed led him to make a deal with Madame Gao to have the Rands murdered, and when he was diagnosed with cancer, he agreed to help the Hand in exchange for his life. Meachum was brought back from the dead and forced to live in hiding, controlling his former company through his own son Ward Meachum. Upon the return of Danny Rand, who was now the Iron Fist, Meachum saw a chance to return to his old life and manipulated Iron Fist into fighting the Hand for him, allowing him to kill Bakuto and have Gao disappear while Meachum returned to New York City and betrayed Rand."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Havoc_in_the_Hidden_Land> rdfs:label "Havoc in the Hidden Land"^^rdf:langString ;
+    rdfs:comment """Havoc in the Hidden Land is the seventh episode of the first season of the television series Inhumans.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Hollywood_Ending> rdfs:label "Hollywood Ending"^^rdf:langString ;
+    rdfs:comment """Hollywood Ending is the tenth and final episode of the second season of the television series Agent Carter, and the last episode of the series overall.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Hulk> rdfs:label "Hulk"^^rdf:langString ;
+    rdfs:comment """Robert Bruce Banner, M.D., Ph.D. is a renowned scientist who was highly respected for all his work in the fields of Biochemistry, Nuclear Physics, and Gamma Radiation. As part of a program commissioned by General Thaddeus Ross to recreate the Super Soldier Serum which created Captain America, Banner conducted an experiment with Gamma Radiation. However, when an exposure to high levels of Gamma Radiation instead of Vita Radiation went awry, the mild-mannered scientist had found that when angered or provoked, he would transform into the huge, rage-fueled, nearly mindless and green-skinned monster known as Hulk.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man> rdfs:label "Iron Man"^^rdf:langString ;
+    rdfs:comment """Anthony Edward "Tony" Stark is a genius, billionaire, philanthropist and the former head of Stark Industries. Using his own great wealth and exceptional technical knowledge, Stark enjoyed the playboy lifestyle for many years until he was kidnapped by the Ten Rings. With his life on the line, Stark created an armored suit which he used to escape his captors, returning home and becoming the superhero known as Iron Man, battling against terrorists as well as his former business partner Obadiah Stane. Stark enjoyed the fame that came with his new secret identity and decided to share it with the world, publicly announcing himself as Iron Man.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_(video_game)> rdfs:label "Iron Man (video game)"^^rdf:langString ;
+    rdfs:comment """Iron Man is a 2008 video game based on the film of the same name. It was released on May 2, 2008 to coincide with the release of the film in cinemas. The game is published by Sega, and was released on PlayStation 3, Xbox 360 (developed by Secret Level), PlayStation 2, PlayStation Portable, Nintendo DS, Wii, Microsoft Windows (developed by Artificial Mind and Movement) and Mobile Platforms.
+The enemies are Advanced Idea Mechanics, the Maggia and the Ten Rings terrorist group. The super-villains in the game include Blacklash, Madame Masque, Controller, Titanium Man, Melter, and Iron Monger.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_Armor:_Mark_I> rdfs:label "Iron Man Armor: Mark I"^^rdf:langString ;
+    ns1:succeededBy <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_Armor:_Mark_II> ;
+    rdfs:comment """The Mark I Armor was Tony Stark's first Iron Man suit, built to help him escape from forced captivity by the Ten Rings. The suit was crafted from the limited resources around him, including salvaged pieces of scrap metal and machine parts.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_Armor:_Mark_II> rdfs:label "Iron Man Armor: Mark II"^^rdf:langString ;
+    ns1:precededBy <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_Armor:_Mark_I> ;
+    rdfs:comment """The Mark II Armor was Tony Stark's second Iron Man suit, heavily refining the bulky and rudimentary design of the previous Mark I suit, resulting in a far more articulated and sleek design.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Joseph_Rogers> rdfs:label "Joseph Rogers"^^rdf:langString ;
+    rdfs:comment """Joseph Rogers was the father of Steve Rogers, and a soldier with the 107th Infantry Regiment of the United States Army. He was killed during World War I.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Kendrick_Lamar> rdfs:label "Kendrick Lamar"^^rdf:langString ;
+    rdfs:comment """Kendrick Lamar Duckworth, professionally known as Kendrick Lamar, is an American hip hop recording artist.
+He produced Black Panther: The Album with Top Dawg and featured on the songs "Black Panther", "All the Stars", "King's Dead", "Big Shot" and "Pray for Me".
+His song "Backseat Freestyle" is featured in the Jessica Jones episode AKA You're a Winner!.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/List_of_Minor_Characters> rdfs:label "List of Minor Characters"^^rdf:langString ;
+    rdfs:comment """This is a list of minor characters appearing across the Marvel Cinematic Universe.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Luke_Cage_(TV_series)> rdfs:label "Luke Cage (TV series)"^^rdf:langString ;
+    rdfs:comment """Marvel's Luke Cage, or simply Luke Cage, is a television series that stars the superhero character of the same name.
+The first season premiered on September 30, 2016.
+The second season premiered on June 22, 2018.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_75_Years:_From_Pulp_to_Pop> rdfs:label "Marvel 75 Years: From Pulp to Pop"^^rdf:langString ;
+    rdfs:comment """Marvel 75 Years: From Pulp to Pop is a one-hour special documentary that aired on ABC on November 4, 2015.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_One-Shot:_All_Hail_the_King> rdfs:label "Marvel One-Shot: All Hail the King"^^rdf:langString ;
+    rdfs:comment """All Hail the King is the fifth Marvel One-Shot and was released on the Thor: The Dark World Blu-ray. It takes place after the events of Iron Man 3.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Marvel_One-Shot:_The_Consultant> rdfs:label "Marvel One-Shot: The Consultant"^^rdf:langString ;
+    rdfs:comment """The Consultant is the first in a series of Marvel One-Shots, released on the Thor Blu-ray on September 13, 2011. It is set after the main events of Thor and during the final events of The Incredible Hulk. It focuses on Phil Coulson and Jasper Sitwell's attempts to out-manuever the World Security Council's orders.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Mike_del_Mundo> rdfs:label "Mike del Mundo"^^rdf:langString ;
+    rdfs:comment "Mike del Munro was an artist for Guidebook to the Marvel Cinematic Universe - Iron Man, Guidebook to the Marvel Cinematic Universe - The Incredible Hulk, Guidebook to the Marvel Cinematic Universe - Iron Man 2, Guidebook to the Marvel Cinematic Universe - Captain America: The First Avenger, Guidebook to the Marvel Cinematic Universe - The Avengers, Guidebook to the Marvel Cinematic Universe - Captain America: The Winter Soldier, Guidebook to the Marvel Cinematic Universe - Ant-Man, Guidebook to the Marvel Cinematic Universe - Marvel's Agents of S.H.I.E.L.D. Season One, Guidebook to the Marvel Cinematic Universe - Guardians of the Galaxy, Guidebook to the Marvel Cinematic Universe - Avengers: Age of Ultron, Guidebook to the Marvel Cinematic Universe - Marvel's Agents of S.H.I.E.L.D."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Nathaniel_Barton> rdfs:label "Nathaniel Barton"^^rdf:langString ;
+    rdfs:comment """Nathaniel Pietro Barton is the third child of Clint and Laura Barton. His first name is the masculine form of Natasha, after Natasha Romanoff, while his middle name is a homage to Pietro Maximoff.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/North_America> rdfs:label "North America"^^rdf:langString ;
+    rdfs:comment """North America is one of the seven continents. United States of America is located in North America.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Now_is_Not_the_End> rdfs:label "Now is Not the End"^^rdf:langString ;
+    rdfs:comment """Now is Not the End is the first episode of the first season of the television series Agent Carter.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Parish_Landman> rdfs:label "Parish Landman"^^rdf:langString ;
+    rdfs:comment """Parish Landman is the co-founder of the large law-firm Landman and Zack. He was arrested for aiding Wilson Fisk with his illicit activities.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Patriot> rdfs:label "Patriot"^^rdf:langString ;
+    rdfs:comment """Jeffrey Mace was the Director of S.H.I.E.L.D.. Originally working as a journalist for International Affairs, he survived Helmut Zemo's terrorist attack on the Vienna International Centre. After this, he was called upon by the government to partake in an experiment that would give him super strength under Project Patriot. Now a hero in the eyes of the public, he was considered by both Phil Coulson and President Matthew Ellis a perfect person to lead S.H.I.E.L.D. when the organization was to be legitimized again, under the guise of an Inhuman. As S.H.I.E.L.D.'s Director, Mace revealed the agency's continued existence to the world. 
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Phase_Four> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/phase> ;
+    rdfs:label "Phase Four"^^rdf:langString ;
+    ns1:directors <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Cate_Shortland> ;
+    ns1:duration 2019 ;
+    ns1:films <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Black_Widow_(film)> ;
+    rdfs:comment """Phase Four will be the fourth part of the Marvel Cinematic Universe after Phase Three.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Quinjet> rdfs:label "Quinjet"^^rdf:langString ;
+    rdfs:comment """The Quinjet is a technologically advanced S.H.I.E.L.D. jet frequently used by the Avengers and STRIKE teams for transportation. Quinjets possess unique flight capabilities thanks to their unique wings which contain turbine fans. While most early Quinjets were lightly armed, the former S.H.I.E.L.D. initiative known as Project Insight introduced a series of Quinjets with a wider range of weapons.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Rick_Cleveland> rdfs:label "Rick Cleveland"^^rdf:langString ;
+    rdfs:comment """Rick Cleveland wrote the Inhumans episode Divide -- And Conquer and co-wrote the Inhumans episode ...And Finally: Black Bolt with Scott Reynolds.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Runaways_(TV_series)> rdfs:label "Runaways (TV series)"^^rdf:langString ;
+    rdfs:comment """Marvel's Runaways, or simply Runaways, is a television series that star the team of the same name. It is produced by Marvel Television and airs on Hulu.
+On August 17, 2016, the series was officially ordered by Hulu. The first season premiered on November 21, 2017.
+On January 8, 2018, the series was renewed for a second season. It will premiere on December 21, 2018.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Stark_Industries> rdfs:label "Stark Industries"^^rdf:langString ;
+    rdfs:comment """Stark Industries is a multinational industrial company owned by Tony Stark, and is the largest tech conglomerate in the world. Founded in 1939 by Howard Stark, the elder Stark ran the company from its inception up until his death in 1991, after which Obadiah Stane was appointed interim CEO. with Tony Stark officially assuming the position shortly after at the age of 21.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Strategic_Operations_Command_Center> rdfs:label "Strategic Operations Command Center"^^rdf:langString ;
+    rdfs:comment """The Strategic Operations Command Center, or SOCC, was a special United States Army anti-Hulk Task Force under the command of then-Lieutenant general Thaddeus Ross. They battled Hulk in Brazil, and again at Culver University.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/The_Dark_at_the_End_of_the_Tunnel> rdfs:label "The Dark at the End of the Tunnel"^^rdf:langString ;
+    rdfs:comment """The Dark at the End of the Tunnel is the twelfth episode of the second season of the Netflix exclusive television series Daredevil.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Theo_Broussard> rdfs:label "Theo Broussard"^^rdf:langString ;
+    rdfs:comment """Doctor Theo Broussard was a psychiatrist hired by the Joint Counter Terrorist Centre to interrogate Bucky Barnes.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Thor:_The_Dark_World> rdfs:label "Thor: The Dark World"^^rdf:langString ;
+    rdfs:comment """Thor: The Dark World is a 2013 superhero film, based on the Marvel Comics superhero of the same name. It is a sequel to Thor and The Avengers, and is the eighth installment in the Marvel Cinematic Universe and the second installment of Phase Two. The film was released internationally on October 30, 2013 and on November 8, 2013 in the United States.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Thor_(film)> rdfs:label "Thor (film)"^^rdf:langString ;
+    rdfs:comment """Thor is a 2011 superhero film based on the Marvel Comics superhero by the same name. It is the fourth installment in the Marvel Cinematic Universe and the fourth installment of Phase One.
+Though the flashback scenes take place thousands of years prior, the bulk of the film takes place during the events of The Incredible Hulk and Iron Man 2. It is directed by Kenneth Branagh and stars Chris Hemsworth, Natalie Portman, Tom Hiddleston, Idris Elba and Anthony Hopkins as Thor, Jane Foster, Loki, Heimdall and Odin.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Titan> rdfs:label "Titan"^^rdf:langString ;
+    rdfs:comment """Titan is the desolated homeworld of Thanos.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Titans> rdfs:label "Titans"^^rdf:langString ;
+    rdfs:comment """The Titans are a race of beings from the planet Titan who were all but destroyed by a catastrophic event.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Troy_Benjamin> rdfs:label "Troy Benjamin"^^rdf:langString ;
+    rdfs:comment "Troy Benjamin wrote Agents of S.H.I.E.L.D.: Season One Declassified, Agents of S.H.I.E.L.D.: Season Two Declassified, and Guidebook to the Marvel Cinematic Universe."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Uprising_in_Attilan> rdfs:label "Uprising in Attilan"^^rdf:langString ;
+    rdfs:comment """The Uprising in Attilan was a conflict orchestrated by Maximus Boltagon of Attilan, who sought to claim the throne by staging a coup d'état against the Inhuman Royal Family and overthrowing his older brother Black Bolt.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Volstagg> rdfs:label "Volstagg"^^rdf:langString ;
+    rdfs:comment """Volstagg was an Asgardian and a member of the Warriors Three. He was a good friend of Thor, Sif, and fellow members Hogun and Fandral. Alongside all his fellow warriors, Volstagg took part in a poorly considered strike against all the Frost Giants of Jotunheim, which soon resulted in King Odin deciding to directly punish Thor by banishing him to the Earth without his powers. When Loki then took the throne of Asgard during Thor's banishment, Volstagg and his allies played a key role saving Thor from the Destroyer before bringing him back to Asgard where he successfully stopped Loki from stealing the throne of Asgard and restoring the peace.
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/WHiH_Newsfront_(web_series)> rdfs:label "WHiH Newsfront (web series)"^^rdf:langString ;
+    rdfs:comment """WHiH Newsfront is an American web series, based on an online news program with the same name supported by the television network WHiH World News. It airs on Youtube and is part of the promotional campaigns for the movies Ant-Man and Captain America: Civil War. It aired on July 2, 2015 and was renewed in April 22, 2016.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Wendell_Rand> rdfs:label "Wendell Rand"^^rdf:langString ;
+    rdfs:comment """Wendell Rand was the CEO of Rand Enterprises and father of Danny Rand.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/episode> a owl:Class ;
+    rdfs:label "Episode"@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2091> rdfs:label "2091"^^rdf:langString ;
+    rdfs:comment """This is a timeline of events that occurred in the original 2091 before Glenn Talbot was killed by Quake, preventing this future from coming to pass.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Agent_Carter_(TV_series)> a <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/class/tv> ;
+    rdfs:label "Agent Carter (TV series)"^^rdf:langString ;
+    ns1:channel <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/American_Broadcasting_Company> ;
+    ns1:composer <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Christopher_Lennertz> ;
+    ns1:dates "--01-06"^^xsd:gMonthDay ;
+    ns1:first <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Now_is_Not_the_End> ;
+    ns1:last <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Hollywood_Ending> ;
+    ns1:showrunners <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Chris_Dingess> ;
+    rdfs:comment "Agent Carter was an American television series based on Marvel Comics character Peggy Carter. It was produced by Marvel Television and aired on the ABC network, and has been set in the Marvel Cinematic Universe. It occurs after the events of Captain America: The First Avenger and before Marvel One-Shot: Agent Carter with Hayley Atwell reprising her role as Carter. Reaper creators Tara Butters and Michele Fazekas will be writing and executive producing the show as well as serving as the showrunners for the series. On May 8, 2014 Marvel Entertainment announced that ABC has picked up Agent Carter to series. The series premiered in January 2015. On May 15, 2014, Hayley Atwell stated that the show would run for 8 episodes."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aldrich_Killian> rdfs:label "Aldrich Killian"^^rdf:langString ;
+    rdfs:comment "Aldrich Killian was the founder and chief executive officer of Advanced Idea Mechanics. When Tony Stark refused to join him in his research, Killian participated in the development of Extremis thereby amassing a group of Extremis-enhanced soldiers under his command. To mask his illegal activities as a terrorist attacks he created the idealized terrorist persona known as the \"Mandarin\" portrayed by the British actor Trevor Slattery to serve as his proxy, unaware that the Mandarin truly existed. He also conspired with Vice President Rodriguez in an attempt to take control over both the United States of America and the War on Terror, manipulating them for his own profit."@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Before_20th_Century> rdfs:label "Before 20th Century"^^rdf:langString ;
+    ns1:current <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Before_20th_Century> ;
+    rdfs:comment """This is a timeline of events that occurred before the 20th century.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_The_First_Avenger> rdfs:label "Captain America: The First Avenger"^^rdf:langString ;
+    rdfs:comment """Captain America: The First Avenger is a 2011 superhero film, based on the Marvel Comics superhero of the same name. It is the fifth installment in the Marvel Cinematic Universe and the fifth installment of Phase One.
+It was directed by Joe Johnston and stars Chris Evans as Steve Rogers/Captain America, Hayley Atwell as Peggy Carter, Sebastian Stan as Bucky Barnes and Hugo Weaving as Johann Schmidt/Red Skull.
+The film spawned two sequels: Captain America: The Winter Soldier in 2014 and Captain America: Civil War in 2016.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Enoch> rdfs:label "Enoch"^^rdf:langString ;
+    ns1:age <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Earth> ;
+    rdfs:comment """Enoch was a Chronicom anthropologist, sent to Earth in order to study and record the history of Humans. Coming into contact with Robin Hinton, whose Inhuman power made her able to see into the future, Enoch became aware of an Extinction-Level Event that would destroy Earth itself. While helping Polly Hinton take care and raise her daughter, Enoch began to make arrangements to save humanity, including sending Phil Coulson and other agents into the future through a White Monolith, and helping Leo Fitz survive for 74 years in cryostasis to help his friends. He helped the team get back together and to the present, sacrificing himself in the process.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Jackson_Brice> rdfs:label "Jackson Brice"^^rdf:langString ;
+    rdfs:comment """Jackson Brice was a member of Adrian Toomes' criminal group who used modified weaponry, including a gauntlet, to showcase and sell alien-human hybrid weaponry under the alias of Shocker. Having jeopardized the group by recklessly and repeatedly firing an Ultron Blaster Gun publicly and threatening to expose Toomes' criminal lifestyle, he was killed by Toomes in retaliation.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/New_York> rdfs:label "New York"^^rdf:langString ;
+    rdfs:comment """New York is a state located in the northeastern and mid-Atlantic regions of the United States of America.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/2017> rdfs:label "2017"^^rdf:langString ;
+    rdfs:comment """This is a timeline of events that occurred in 2017.
+
+"""@en .
+
+<http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/A.I.M.> rdfs:label "A.I.M."^^rdf:langString ;
+    ns1:comic <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Captain_America:_Civil_War_Prelude> ;
+    ns1:formerleaders <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aldrich_Killian> ;
+    ns1:founder <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Aldrich_Killian> ;
+    ns1:game <http://dbkwik.webdatacommons.org/marvelcinematicuniverse.wikia.com/resource/Iron_Man_(video_game)> ;
+    rdfs:comment """Advanced Idea Mechanics, better known by its acronym A.I.M., was a scientific research and development agency founded by Aldrich Killian and funded by the United States government. 
+
+"""@en .
+

@@ -1,0 +1,49 @@
+Model,mean_value,Complexity,metric
+Claude,0.030714285714285715,Complex,lexical_query_overlap
+Deepseek R1,0.02,Complex,lexical_query_overlap
+GPT OSS,0.05944444444444444,Complex,lexical_query_overlap
+GPT5,0.037500000000000006,Complex,lexical_query_overlap
+Claude,0.07875000000000001,Moderate,lexical_query_overlap
+Deepseek R1,0.0375,Moderate,lexical_query_overlap
+GPT OSS,0.08626984126984127,Moderate,lexical_query_overlap
+GPT5,0.05541666666666667,Moderate,lexical_query_overlap
+Claude,0.031818181818181815,Simple,lexical_query_overlap
+Deepseek R1,0.065,Simple,lexical_query_overlap
+GPT OSS,0.03101190476190476,Simple,lexical_query_overlap
+GPT5,0.02825,Simple,lexical_query_overlap
+Claude,0.7007142857142856,Complex,semantic_similarity_to_CQ
+Deepseek R1,0.72,Complex,semantic_similarity_to_CQ
+GPT OSS,0.7207777777777777,Complex,semantic_similarity_to_CQ
+GPT5,0.7024999999999999,Complex,semantic_similarity_to_CQ
+Claude,0.70125,Moderate,semantic_similarity_to_CQ
+Deepseek R1,0.33499999999999996,Moderate,semantic_similarity_to_CQ
+GPT OSS,0.7246825396825396,Moderate,semantic_similarity_to_CQ
+GPT5,0.7145833333333333,Moderate,semantic_similarity_to_CQ
+Claude,0.7059090909090908,Simple,semantic_similarity_to_CQ
+Deepseek R1,0.7066666666666666,Simple,semantic_similarity_to_CQ
+GPT OSS,0.7302380952380951,Simple,semantic_similarity_to_CQ
+GPT5,0.7114166666666666,Simple,semantic_similarity_to_CQ
+Claude,0.77,Complex,semantic_soft_coverage_to_CQ
+Deepseek R1,0.7575000000000001,Complex,semantic_soft_coverage_to_CQ
+GPT OSS,0.776,Complex,semantic_soft_coverage_to_CQ
+GPT5,0.77125,Complex,semantic_soft_coverage_to_CQ
+Claude,0.765,Moderate,semantic_soft_coverage_to_CQ
+Deepseek R1,0.365,Moderate,semantic_soft_coverage_to_CQ
+GPT OSS,0.7795238095238095,Moderate,semantic_soft_coverage_to_CQ
+GPT5,0.7658333333333334,Moderate,semantic_soft_coverage_to_CQ
+Claude,0.7577272727272727,Simple,semantic_soft_coverage_to_CQ
+Deepseek R1,0.7841666666666667,Simple,semantic_soft_coverage_to_CQ
+GPT OSS,0.7716666666666666,Simple,semantic_soft_coverage_to_CQ
+GPT5,0.7588333333333334,Simple,semantic_soft_coverage_to_CQ
+Claude,0.4211678004535147,Complex,semantic_diversity_score
+Deepseek R1,0.4307638888888889,Complex,semantic_diversity_score
+GPT OSS,0.3695361552028219,Complex,semantic_diversity_score
+GPT5,0.43129133597883595,Complex,semantic_diversity_score
+Claude,0.46368055555555554,Moderate,semantic_diversity_score
+Deepseek R1,0.36583333333333334,Moderate,semantic_diversity_score
+GPT OSS,0.44451719576719584,Moderate,semantic_diversity_score
+GPT5,0.5101840277777777,Moderate,semantic_diversity_score
+Claude,0.4709469696969697,Simple,semantic_diversity_score
+Deepseek R1,0.5086574074074074,Simple,semantic_diversity_score
+GPT OSS,0.45764219576719567,Simple,semantic_diversity_score
+GPT5,0.41743703703703705,Simple,semantic_diversity_score

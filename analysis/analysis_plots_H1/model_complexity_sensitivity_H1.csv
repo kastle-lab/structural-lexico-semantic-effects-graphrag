@@ -1,0 +1,9 @@
+KG,Model,syntax_ok_rate,satisfiable_rate,deterministic_rate,h1_overall,mean_rho_across_H1
+Big,Claude,-1.0,-1.0,-1.0,-1.0,-1.0
+Big,Deepseek R1,0.5,0.5,0.5,-0.5,0.25
+Big,GPT OSS,0.5,1.0,0.5,-1.0,0.25
+Big,GPT5,-1.0,-0.5,-1.0,-1.0,-0.875
+Small,Claude,-1.0,-1.0,-1.0,-1.0,-1.0
+Small,Deepseek R1,-1.0,-1.0,-1.0,,-1.0
+Small,GPT OSS,-0.8660254037844387,-1.0,-0.8660254037844387,-0.5,-0.8080127018922194
+Small,GPT5,-1.0,-1.0,-1.0,-1.0,-1.0

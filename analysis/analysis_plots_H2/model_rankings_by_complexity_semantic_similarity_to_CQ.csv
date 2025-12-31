@@ -1,0 +1,13 @@
+Model,mean_value,Complexity,metric
+Claude,0.7007142857142856,Complex,semantic_similarity_to_CQ
+Deepseek R1,0.72,Complex,semantic_similarity_to_CQ
+GPT OSS,0.7207777777777777,Complex,semantic_similarity_to_CQ
+GPT5,0.7024999999999999,Complex,semantic_similarity_to_CQ
+Claude,0.70125,Moderate,semantic_similarity_to_CQ
+Deepseek R1,0.33499999999999996,Moderate,semantic_similarity_to_CQ
+GPT OSS,0.7246825396825396,Moderate,semantic_similarity_to_CQ
+GPT5,0.7145833333333333,Moderate,semantic_similarity_to_CQ
+Claude,0.7059090909090908,Simple,semantic_similarity_to_CQ
+Deepseek R1,0.7066666666666666,Simple,semantic_similarity_to_CQ
+GPT OSS,0.7302380952380951,Simple,semantic_similarity_to_CQ
+GPT5,0.7114166666666666,Simple,semantic_similarity_to_CQ

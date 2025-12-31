@@ -1,0 +1,13 @@
+Model,mean_h1_overall,Complexity
+Claude,0.8979591836734694,Complex
+Deepseek R1,0.96875,Complex
+GPT OSS,0.7362433862433864,Complex
+GPT5,0.8827008928571428,Complex
+Claude,0.984375,Moderate
+Deepseek R1,0.5,Moderate
+GPT OSS,0.9487433862433863,Moderate
+GPT5,0.9506944444444445,Moderate
+Claude,1.0,Simple
+Deepseek R1,1.0,Simple
+GPT OSS,0.9826388888888888,Simple
+GPT5,0.9691666666666667,Simple

@@ -1,0 +1,8 @@
+KG,Model,metric,rho,p,rho_FV,rho_VS
+Big,Claude,h1_overall,-1.0,0.0,-1.0,-1.0
+Big,Deepseek R1,h1_overall,-0.5,0.6666666666666667,0.5,0.5
+Big,GPT OSS,h1_overall,-1.0,0.0,1.0,0.5
+Big,GPT5,h1_overall,-1.0,0.0,-0.5,-1.0
+Small,Claude,h1_overall,-1.0,0.0,-1.0,-1.0
+Small,GPT OSS,h1_overall,-0.5,0.6666666666666667,-1.0,-0.8660254037844387
+Small,GPT5,h1_overall,-1.0,0.0,-1.0,-1.0
